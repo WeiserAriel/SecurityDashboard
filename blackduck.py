@@ -19,6 +19,7 @@ import subprocess
 import glob
 from pathlib import Path
 
+#Ariel Weiser
 #from redminelib import Redmine
 #from packages.paramiko.client import SSHClient
 urllib3.disable_warnings()
