@@ -1,0 +1,317 @@
+2020-03-15 12:08:10,905 [INFO]: authentication for Nessus server has started 
+2020-03-15 12:08:11,961 [DEBUG]: token used for nessus is : 0a1b9b14348da73c49129fb895186ab14d57579cec6d4dc1 
+2020-03-15 12:08:11,961 [INFO]: Authentication for Nessus Server is completed successfully 
+2020-03-15 12:08:11,962 [DEBUG]:  Nessus-token is : 0a1b9b14348da73c49129fb895186ab14d57579cec6d4dc1 
+2020-03-15 12:08:12,016 [DEBUG]: requests to /scans finish succussfully 
+2020-03-15 12:08:12,016 [INFO]: setting the folder ID of my scans  
+2020-03-15 12:08:12,016 [DEBUG]: folder id found for my Scans : 3 
+2020-03-15 12:08:12,017 [INFO]: removing all scans on trash folder 
+2020-03-15 12:08:12,017 [INFO]: find vulnerabilites for each scan id 
+2020-03-15 12:08:12,017 [DEBUG]: getting information about scan id 356 
+2020-03-15 12:08:12,106 [DEBUG]: getting information about scan id 358 
+2020-03-15 12:08:12,197 [DEBUG]: getting information about scan id 359 
+2020-03-15 12:08:12,286 [DEBUG]: getting information about scan id 361 
+2020-03-15 12:08:12,370 [DEBUG]: getting information about scan id 553 
+2020-03-15 12:08:12,445 [DEBUG]: getting information about scan id 567 
+2020-03-15 12:08:12,534 [DEBUG]: getting information about scan id 538 
+2020-03-15 12:08:12,622 [DEBUG]: getting information about scan id 414 
+2020-03-15 12:08:12,704 [DEBUG]: Check vulnerabilites for scan id 356 
+2020-03-15 12:08:12,704 [DEBUG]: checking vulnerability with plugin name Web mirroring 
+2020-03-15 12:08:12,704 [DEBUG]: checking vulnerability with plugin name Web Application Sitemap 
+2020-03-15 12:08:12,704 [DEBUG]: checking vulnerability with plugin name Traceroute Information 
+2020-03-15 12:08:12,705 [DEBUG]: checking vulnerability with plugin name Time of Last System Startup 
+2020-03-15 12:08:12,705 [DEBUG]: checking vulnerability with plugin name TCP/IP Timestamps Supported 
+2020-03-15 12:08:12,705 [DEBUG]: checking vulnerability with plugin name SSL Root Certification Authority Certificate Information 
+2020-03-15 12:08:12,705 [DEBUG]: checking vulnerability with plugin name SSL Perfect Forward Secrecy Cipher Suites Supported 
+2020-03-15 12:08:12,706 [DEBUG]: checking vulnerability with plugin name SSL Cipher Suites Supported 
+2020-03-15 12:08:12,706 [DEBUG]: checking vulnerability with plugin name SSL Cipher Block Chaining Cipher Suites Supported 
+2020-03-15 12:08:12,706 [DEBUG]: checking vulnerability with plugin name SSL Certificate Information 
+2020-03-15 12:08:12,706 [DEBUG]: checking vulnerability with plugin name SSL Certificate Expiry - Future Validity 
+2020-03-15 12:08:12,706 [DEBUG]: checking vulnerability with plugin name SSL Certificate 'commonName' Mismatch 
+2020-03-15 12:08:12,707 [DEBUG]: checking vulnerability with plugin name SSL / TLS Versions Supported 
+2020-03-15 12:08:12,707 [DEBUG]: checking vulnerability with plugin name SSH Server Type and Version Information 
+2020-03-15 12:08:12,707 [DEBUG]: checking vulnerability with plugin name SSH Protocol Versions Supported 
+2020-03-15 12:08:12,707 [DEBUG]: checking vulnerability with plugin name SSH Combined Host Command Logging (Plugin Debugging) 
+2020-03-15 12:08:12,707 [DEBUG]: checking vulnerability with plugin name SSH Algorithms and Languages Supported 
+2020-03-15 12:08:12,708 [DEBUG]: checking vulnerability with plugin name SNMP Supported Protocols Detection 
+2020-03-15 12:08:12,708 [DEBUG]: checking vulnerability with plugin name SNMP Request Network Interfaces Enumeration 
+2020-03-15 12:08:12,708 [DEBUG]: checking vulnerability with plugin name SNMP Query System Information Disclosure 
+2020-03-15 12:08:12,708 [DEBUG]: checking vulnerability with plugin name SNMP Query Running Process List Disclosure 
+2020-03-15 12:08:12,708 [DEBUG]: checking vulnerability with plugin name SNMP Query Routing Information Disclosure 
+2020-03-15 12:08:12,709 [DEBUG]: checking vulnerability with plugin name SNMP Protocol Version Detection 
+2020-03-15 12:08:12,709 [DEBUG]: checking vulnerability with plugin name PCI DSS compliance : options settings 
+2020-03-15 12:08:12,709 [DEBUG]: checking vulnerability with plugin name Patch Report 
+2020-03-15 12:08:12,709 [DEBUG]: checking vulnerability with plugin name OS Identification and Installed Software Enumeration over SSH v2 (Using New SSH Library) 
+2020-03-15 12:08:12,710 [DEBUG]: checking vulnerability with plugin name OS Identification 
+2020-03-15 12:08:12,710 [DEBUG]: checking vulnerability with plugin name Network Time Protocol (NTP) Server Detection 
+2020-03-15 12:08:12,710 [DEBUG]: checking vulnerability with plugin name Netstat Active Connections 
+2020-03-15 12:08:12,710 [DEBUG]: checking vulnerability with plugin name Nessus Scan Information 
+2020-03-15 12:08:12,710 [DEBUG]: checking vulnerability with plugin name Missing or Permissive Content-Security-Policy frame-ancestors HTTP Response Header 
+2020-03-15 12:08:12,711 [DEBUG]: checking vulnerability with plugin name Local Checks Not Enabled (info) 
+2020-03-15 12:08:12,711 [DEBUG]: checking vulnerability with plugin name IP Protocols Scan 
+2020-03-15 12:08:12,711 [DEBUG]: checking vulnerability with plugin name ICMP Timestamp Request Remote Date Disclosure 
+2020-03-15 12:08:12,711 [DEBUG]: checking vulnerability with plugin name HyperText Transfer Protocol (HTTP) Redirect Information 
+2020-03-15 12:08:12,711 [DEBUG]: checking vulnerability with plugin name HyperText Transfer Protocol (HTTP) Information 
+2020-03-15 12:08:12,712 [DEBUG]: checking vulnerability with plugin name HTTP Server Type and Version 
+2020-03-15 12:08:12,712 [DEBUG]: checking vulnerability with plugin name HTTP Methods Allowed (per directory) 
+2020-03-15 12:08:12,712 [DEBUG]: checking vulnerability with plugin name HSTS Missing From HTTPS Server 
+2020-03-15 12:08:12,712 [DEBUG]: checking vulnerability with plugin name Host Fully Qualified Domain Name (FQDN) Resolution 
+2020-03-15 12:08:12,712 [DEBUG]: checking vulnerability with plugin name Ethernet MAC Addresses 
+2020-03-15 12:08:12,713 [DEBUG]: checking vulnerability with plugin name Ethernet Card Manufacturer Detection 
+2020-03-15 12:08:12,713 [DEBUG]: checking vulnerability with plugin name Device Type 
+2020-03-15 12:08:12,713 [DEBUG]: checking vulnerability with plugin name Debugging Log Report 
+2020-03-15 12:08:12,713 [DEBUG]: checking vulnerability with plugin name Common Platform Enumeration (CPE) 
+2020-03-15 12:08:12,713 [DEBUG]: checking vulnerability with plugin name CGI Generic Tests Load Estimation (all tests) 
+2020-03-15 12:08:12,714 [DEBUG]: checking vulnerability with plugin name CGI Generic Injectable Parameter 
+2020-03-15 12:08:12,714 [DEBUG]: checking vulnerability with plugin name Authentication Success 
+2020-03-15 12:08:12,714 [DEBUG]: checking vulnerability with plugin name Authenticated Check : OS Name and Installed Package Enumeration 
+2020-03-15 12:08:12,714 [DEBUG]: checking vulnerability with plugin name Apache HTTP Server Version 
+2020-03-15 12:08:12,715 [DEBUG]: checking vulnerability with plugin name Additional DNS Hostnames 
+2020-03-15 12:08:12,715 [DEBUG]: checking vulnerability with plugin name Service Detection 
+2020-03-15 12:08:12,715 [DEBUG]: checking vulnerability with plugin name Nessus SNMP Scanner 
+2020-03-15 12:08:12,715 [DEBUG]: checking vulnerability with plugin name SSL Self-Signed Certificate 
+2020-03-15 12:08:12,715 [DEBUG]: checking vulnerability with plugin name SSL Certificate Cannot Be Trusted 
+2020-03-15 12:08:12,716 [DEBUG]: checking vulnerability with plugin name SNMP 'GETBULK' Reflection DDoS 
+2020-03-15 12:08:12,716 [DEBUG]: checking vulnerability with plugin name OPIE w/ OpenSSH Account Enumeration 
+2020-03-15 12:08:12,716 [DEBUG]: checking vulnerability with plugin name OpenSSH S/KEY Authentication Account Enumeration 
+2020-03-15 12:08:12,716 [DEBUG]: checking vulnerability with plugin name OpenSSH >= 2.3.0 AllowTcpForwarding Port Bouncing 
+2020-03-15 12:08:12,716 [DEBUG]: checking vulnerability with plugin name SNMP Agent Default Community Name (public) 
+2020-03-15 12:08:12,717 [DEBUG]: Check vulnerabilites for scan id 358 
+2020-03-15 12:08:12,717 [DEBUG]: checking vulnerability with plugin name Web mirroring 
+2020-03-15 12:08:12,717 [DEBUG]: checking vulnerability with plugin name Web Application Sitemap 
+2020-03-15 12:08:12,717 [DEBUG]: checking vulnerability with plugin name Traceroute Information 
+2020-03-15 12:08:12,717 [DEBUG]: checking vulnerability with plugin name TCP/IP Timestamps Supported 
+2020-03-15 12:08:12,718 [DEBUG]: checking vulnerability with plugin name SSL Root Certification Authority Certificate Information 
+2020-03-15 12:08:12,718 [DEBUG]: checking vulnerability with plugin name SSL Perfect Forward Secrecy Cipher Suites Supported 
+2020-03-15 12:08:12,718 [DEBUG]: checking vulnerability with plugin name SSL Cipher Suites Supported 
+2020-03-15 12:08:12,718 [DEBUG]: checking vulnerability with plugin name SSL Cipher Block Chaining Cipher Suites Supported 
+2020-03-15 12:08:12,718 [DEBUG]: checking vulnerability with plugin name SSL Certificate Information 
+2020-03-15 12:08:12,719 [DEBUG]: checking vulnerability with plugin name SSL Certificate Expiry - Future Validity 
+2020-03-15 12:08:12,719 [DEBUG]: checking vulnerability with plugin name SSL Certificate 'commonName' Mismatch 
+2020-03-15 12:08:12,719 [DEBUG]: checking vulnerability with plugin name SSL / TLS Versions Supported 
+2020-03-15 12:08:12,719 [DEBUG]: checking vulnerability with plugin name SSH Server Type and Version Information 
+2020-03-15 12:08:12,720 [DEBUG]: checking vulnerability with plugin name SSH Protocol Versions Supported 
+2020-03-15 12:08:12,720 [DEBUG]: checking vulnerability with plugin name SSH Algorithms and Languages Supported 
+2020-03-15 12:08:12,720 [DEBUG]: checking vulnerability with plugin name SNMP Supported Protocols Detection 
+2020-03-15 12:08:12,720 [DEBUG]: checking vulnerability with plugin name SNMP Request Network Interfaces Enumeration 
+2020-03-15 12:08:12,720 [DEBUG]: checking vulnerability with plugin name SNMP Query System Information Disclosure 
+2020-03-15 12:08:12,721 [DEBUG]: checking vulnerability with plugin name SNMP Query Running Process List Disclosure 
+2020-03-15 12:08:12,721 [DEBUG]: checking vulnerability with plugin name SNMP Query Routing Information Disclosure 
+2020-03-15 12:08:12,721 [DEBUG]: checking vulnerability with plugin name SNMP Protocol Version Detection 
+2020-03-15 12:08:12,721 [DEBUG]: checking vulnerability with plugin name PCI DSS compliance : options settings 
+2020-03-15 12:08:12,721 [DEBUG]: checking vulnerability with plugin name PCI DSS Compliance : Handling False Positives 
+2020-03-15 12:08:12,722 [DEBUG]: checking vulnerability with plugin name Patch Report 
+2020-03-15 12:08:12,722 [DEBUG]: checking vulnerability with plugin name OS Identification 
+2020-03-15 12:08:12,722 [DEBUG]: checking vulnerability with plugin name Network Time Protocol (NTP) Server Detection 
+2020-03-15 12:08:12,722 [DEBUG]: checking vulnerability with plugin name Nessus Scan Information 
+2020-03-15 12:08:12,722 [DEBUG]: checking vulnerability with plugin name Missing or Permissive Content-Security-Policy frame-ancestors HTTP Response Header 
+2020-03-15 12:08:12,723 [DEBUG]: checking vulnerability with plugin name IP Protocols Scan 
+2020-03-15 12:08:12,723 [DEBUG]: checking vulnerability with plugin name ICMP Timestamp Request Remote Date Disclosure 
+2020-03-15 12:08:12,723 [DEBUG]: checking vulnerability with plugin name HyperText Transfer Protocol (HTTP) Redirect Information 
+2020-03-15 12:08:12,723 [DEBUG]: checking vulnerability with plugin name HyperText Transfer Protocol (HTTP) Information 
+2020-03-15 12:08:12,724 [DEBUG]: checking vulnerability with plugin name HTTP Server Type and Version 
+2020-03-15 12:08:12,724 [DEBUG]: checking vulnerability with plugin name HTTP Methods Allowed (per directory) 
+2020-03-15 12:08:12,724 [DEBUG]: checking vulnerability with plugin name HSTS Missing From HTTPS Server 
+2020-03-15 12:08:12,724 [DEBUG]: checking vulnerability with plugin name Host Fully Qualified Domain Name (FQDN) Resolution 
+2020-03-15 12:08:12,724 [DEBUG]: checking vulnerability with plugin name External URLs 
+2020-03-15 12:08:12,725 [DEBUG]: checking vulnerability with plugin name Ethernet MAC Addresses 
+2020-03-15 12:08:12,725 [DEBUG]: checking vulnerability with plugin name Ethernet Card Manufacturer Detection 
+2020-03-15 12:08:12,725 [DEBUG]: checking vulnerability with plugin name Errors in nessusd.dump 
+2020-03-15 12:08:12,725 [DEBUG]: checking vulnerability with plugin name Common Platform Enumeration (CPE) 
+2020-03-15 12:08:12,725 [DEBUG]: checking vulnerability with plugin name CGI Generic Tests Load Estimation (all tests) 
+2020-03-15 12:08:12,726 [DEBUG]: checking vulnerability with plugin name CGI Generic Injectable Parameter 
+2020-03-15 12:08:12,726 [DEBUG]: checking vulnerability with plugin name Apache HTTP Server Version 
+2020-03-15 12:08:12,726 [DEBUG]: checking vulnerability with plugin name Additional DNS Hostnames 
+2020-03-15 12:08:12,726 [DEBUG]: checking vulnerability with plugin name PCI DSS Compliance - Information Leakage 
+2020-03-15 12:08:12,727 [DEBUG]: checking vulnerability with plugin name Service Detection 
+2020-03-15 12:08:12,727 [DEBUG]: checking vulnerability with plugin name Nessus SNMP Scanner 
+2020-03-15 12:08:12,727 [DEBUG]: checking vulnerability with plugin name SSL Self-Signed Certificate 
+2020-03-15 12:08:12,727 [DEBUG]: checking vulnerability with plugin name SSL Certificate Cannot Be Trusted 
+2020-03-15 12:08:12,727 [DEBUG]: checking vulnerability with plugin name SNMP 'GETBULK' Reflection DDoS 
+2020-03-15 12:08:12,728 [DEBUG]: checking vulnerability with plugin name PCI DSS Compliance : Insecure Communication Has Been Detected 
+2020-03-15 12:08:12,728 [DEBUG]: checking vulnerability with plugin name OPIE w/ OpenSSH Account Enumeration 
+2020-03-15 12:08:12,728 [DEBUG]: checking vulnerability with plugin name OpenSSH S/KEY Authentication Account Enumeration 
+2020-03-15 12:08:12,728 [DEBUG]: checking vulnerability with plugin name OpenSSH >= 2.3.0 AllowTcpForwarding Port Bouncing 
+2020-03-15 12:08:12,728 [DEBUG]: checking vulnerability with plugin name OpenSSH 7.7 < 8.1 
+2020-03-15 12:08:12,729 [DEBUG]: checking vulnerability with plugin name SNMP Agent Default Community Name (public) 
+2020-03-15 12:08:12,729 [DEBUG]: Check vulnerabilites for scan id 359 
+2020-03-15 12:08:12,729 [DEBUG]: checking vulnerability with plugin name Traceroute Information 
+2020-03-15 12:08:12,729 [DEBUG]: checking vulnerability with plugin name Time of Last System Startup 
+2020-03-15 12:08:12,729 [DEBUG]: checking vulnerability with plugin name TCP/IP Timestamps Supported 
+2020-03-15 12:08:12,730 [DEBUG]: checking vulnerability with plugin name SSL Root Certification Authority Certificate Information 
+2020-03-15 12:08:12,730 [DEBUG]: checking vulnerability with plugin name SSL Perfect Forward Secrecy Cipher Suites Supported 
+2020-03-15 12:08:12,730 [DEBUG]: checking vulnerability with plugin name SSL Cipher Suites Supported 
+2020-03-15 12:08:12,730 [DEBUG]: checking vulnerability with plugin name SSL Cipher Block Chaining Cipher Suites Supported 
+2020-03-15 12:08:12,730 [DEBUG]: checking vulnerability with plugin name SSL Certificate Information 
+2020-03-15 12:08:12,731 [DEBUG]: checking vulnerability with plugin name SSL Certificate Expiry - Future Validity 
+2020-03-15 12:08:12,731 [DEBUG]: checking vulnerability with plugin name SSL Certificate 'commonName' Mismatch 
+2020-03-15 12:08:12,731 [DEBUG]: checking vulnerability with plugin name SSL / TLS Versions Supported 
+2020-03-15 12:08:12,731 [DEBUG]: checking vulnerability with plugin name SSH Server Type and Version Information 
+2020-03-15 12:08:12,732 [DEBUG]: checking vulnerability with plugin name SSH Protocol Versions Supported 
+2020-03-15 12:08:12,732 [DEBUG]: checking vulnerability with plugin name SSH Algorithms and Languages Supported 
+2020-03-15 12:08:12,732 [DEBUG]: checking vulnerability with plugin name SNMP Supported Protocols Detection 
+2020-03-15 12:08:12,732 [DEBUG]: checking vulnerability with plugin name SNMP Request Network Interfaces Enumeration 
+2020-03-15 12:08:12,732 [DEBUG]: checking vulnerability with plugin name SNMP Query System Information Disclosure 
+2020-03-15 12:08:12,733 [DEBUG]: checking vulnerability with plugin name SNMP Query Running Process List Disclosure 
+2020-03-15 12:08:12,733 [DEBUG]: checking vulnerability with plugin name SNMP Query Routing Information Disclosure 
+2020-03-15 12:08:12,733 [DEBUG]: checking vulnerability with plugin name SNMP Protocol Version Detection 
+2020-03-15 12:08:12,733 [DEBUG]: checking vulnerability with plugin name OS Identification and Installed Software Enumeration over SSH v2 (Using New SSH Library) 
+2020-03-15 12:08:12,733 [DEBUG]: checking vulnerability with plugin name OS Identification 
+2020-03-15 12:08:12,734 [DEBUG]: checking vulnerability with plugin name Network Time Protocol (NTP) Server Detection 
+2020-03-15 12:08:12,734 [DEBUG]: checking vulnerability with plugin name Netstat Active Connections 
+2020-03-15 12:08:12,734 [DEBUG]: checking vulnerability with plugin name Nessus Scan Information 
+2020-03-15 12:08:12,734 [DEBUG]: checking vulnerability with plugin name Local Checks Not Enabled (info) 
+2020-03-15 12:08:12,734 [DEBUG]: checking vulnerability with plugin name ICMP Timestamp Request Remote Date Disclosure 
+2020-03-15 12:08:12,735 [DEBUG]: checking vulnerability with plugin name HyperText Transfer Protocol (HTTP) Information 
+2020-03-15 12:08:12,735 [DEBUG]: checking vulnerability with plugin name HTTP Server Type and Version 
+2020-03-15 12:08:12,735 [DEBUG]: checking vulnerability with plugin name HTTP Methods Allowed (per directory) 
+2020-03-15 12:08:12,735 [DEBUG]: checking vulnerability with plugin name HSTS Missing From HTTPS Server 
+2020-03-15 12:08:12,735 [DEBUG]: checking vulnerability with plugin name Host Fully Qualified Domain Name (FQDN) Resolution 
+2020-03-15 12:08:12,736 [DEBUG]: checking vulnerability with plugin name Ethernet MAC Addresses 
+2020-03-15 12:08:12,736 [DEBUG]: checking vulnerability with plugin name Ethernet Card Manufacturer Detection 
+2020-03-15 12:08:12,736 [DEBUG]: checking vulnerability with plugin name Device Type 
+2020-03-15 12:08:12,736 [DEBUG]: checking vulnerability with plugin name Common Platform Enumeration (CPE) 
+2020-03-15 12:08:12,737 [DEBUG]: checking vulnerability with plugin name Authentication Success 
+2020-03-15 12:08:12,737 [DEBUG]: checking vulnerability with plugin name Authenticated Check : OS Name and Installed Package Enumeration 
+2020-03-15 12:08:12,737 [DEBUG]: checking vulnerability with plugin name Apache HTTP Server Version 
+2020-03-15 12:08:12,737 [DEBUG]: checking vulnerability with plugin name Additional DNS Hostnames 
+2020-03-15 12:08:12,737 [DEBUG]: checking vulnerability with plugin name Service Detection 
+2020-03-15 12:08:12,738 [DEBUG]: checking vulnerability with plugin name Nessus SNMP Scanner 
+2020-03-15 12:08:12,738 [DEBUG]: checking vulnerability with plugin name SSL Self-Signed Certificate 
+2020-03-15 12:08:12,738 [DEBUG]: checking vulnerability with plugin name SSL Certificate Cannot Be Trusted 
+2020-03-15 12:08:12,738 [DEBUG]: checking vulnerability with plugin name SNMP 'GETBULK' Reflection DDoS 
+2020-03-15 12:08:12,738 [DEBUG]: checking vulnerability with plugin name SNMP Agent Default Community Name (public) 
+2020-03-15 12:08:12,739 [DEBUG]: Check vulnerabilites for scan id 361 
+2020-03-15 12:08:12,739 [DEBUG]: checking vulnerability with plugin name Web mirroring 
+2020-03-15 12:08:12,739 [DEBUG]: checking vulnerability with plugin name Web Application Sitemap 
+2020-03-15 12:08:12,739 [DEBUG]: checking vulnerability with plugin name Nessus Scan Information 
+2020-03-15 12:08:12,739 [DEBUG]: checking vulnerability with plugin name Missing or Permissive Content-Security-Policy frame-ancestors HTTP Response Header 
+2020-03-15 12:08:12,740 [DEBUG]: checking vulnerability with plugin name HyperText Transfer Protocol (HTTP) Redirect Information 
+2020-03-15 12:08:12,740 [DEBUG]: checking vulnerability with plugin name HyperText Transfer Protocol (HTTP) Information 
+2020-03-15 12:08:12,740 [DEBUG]: checking vulnerability with plugin name HTTP Server Type and Version 
+2020-03-15 12:08:12,740 [DEBUG]: checking vulnerability with plugin name HTTP Methods Allowed (per directory) 
+2020-03-15 12:08:12,740 [DEBUG]: checking vulnerability with plugin name HSTS Missing From HTTPS Server 
+2020-03-15 12:08:12,741 [DEBUG]: checking vulnerability with plugin name CGI Generic Tests Load Estimation (all tests) 
+2020-03-15 12:08:12,741 [DEBUG]: checking vulnerability with plugin name CGI Generic Injectable Parameter 
+2020-03-15 12:08:12,741 [DEBUG]: checking vulnerability with plugin name Apache HTTP Server Version 
+2020-03-15 12:08:12,741 [DEBUG]: checking vulnerability with plugin name Nessus SNMP Scanner 
+2020-03-15 12:08:12,741 [DEBUG]: Check vulnerabilites for scan id 553 
+2020-03-15 12:08:12,742 [DEBUG]: checking vulnerability with plugin name SSH Combined Host Command Logging (Plugin Debugging) 
+2020-03-15 12:08:12,742 [DEBUG]: checking vulnerability with plugin name Nessus Scan Information 
+2020-03-15 12:08:12,742 [DEBUG]: checking vulnerability with plugin name Debugging Log Report 
+2020-03-15 12:08:12,742 [DEBUG]: checking vulnerability with plugin name Nessus SNMP Scanner 
+2020-03-15 12:08:12,743 [DEBUG]: Check vulnerabilites for scan id 567 
+2020-03-15 12:08:12,743 [DEBUG]: checking vulnerability with plugin name Web Server robots.txt Information Disclosure 
+2020-03-15 12:08:12,743 [DEBUG]: checking vulnerability with plugin name Traceroute Information 
+2020-03-15 12:08:12,743 [DEBUG]: checking vulnerability with plugin name Time of Last System Startup 
+2020-03-15 12:08:12,743 [DEBUG]: checking vulnerability with plugin name TCP/IP Timestamps Supported 
+2020-03-15 12:08:12,744 [DEBUG]: checking vulnerability with plugin name SSL Root Certification Authority Certificate Information 
+2020-03-15 12:08:12,744 [DEBUG]: checking vulnerability with plugin name SSL Perfect Forward Secrecy Cipher Suites Supported 
+2020-03-15 12:08:12,744 [DEBUG]: checking vulnerability with plugin name SSL Cipher Suites Supported 
+2020-03-15 12:08:12,744 [DEBUG]: checking vulnerability with plugin name SSL Cipher Block Chaining Cipher Suites Supported 
+2020-03-15 12:08:12,745 [DEBUG]: checking vulnerability with plugin name SSL Certificate Information 
+2020-03-15 12:08:12,745 [DEBUG]: checking vulnerability with plugin name SSL Certificate 'commonName' Mismatch 
+2020-03-15 12:08:12,745 [DEBUG]: checking vulnerability with plugin name SSL / TLS Versions Supported 
+2020-03-15 12:08:12,745 [DEBUG]: checking vulnerability with plugin name SSH Server Type and Version Information 
+2020-03-15 12:08:12,745 [DEBUG]: checking vulnerability with plugin name SSH Combined Host Command Logging (Plugin Debugging) 
+2020-03-15 12:08:12,746 [DEBUG]: checking vulnerability with plugin name SSH Algorithms and Languages Supported 
+2020-03-15 12:08:12,746 [DEBUG]: checking vulnerability with plugin name SNMP Supported Protocols Detection 
+2020-03-15 12:08:12,746 [DEBUG]: checking vulnerability with plugin name SNMP Protocol Version Detection 
+2020-03-15 12:08:12,746 [DEBUG]: checking vulnerability with plugin name SFTP Supported 
+2020-03-15 12:08:12,746 [DEBUG]: checking vulnerability with plugin name PCI DSS compliance : options settings 
+2020-03-15 12:08:12,747 [DEBUG]: checking vulnerability with plugin name Patch Report 
+2020-03-15 12:08:12,747 [DEBUG]: checking vulnerability with plugin name OS Identification and Installed Software Enumeration over SSH v2 (Using New SSH Library) 
+2020-03-15 12:08:12,747 [DEBUG]: checking vulnerability with plugin name OS Identification 
+2020-03-15 12:08:12,747 [DEBUG]: checking vulnerability with plugin name Network Time Protocol (NTP) Server Detection 
+2020-03-15 12:08:12,747 [DEBUG]: checking vulnerability with plugin name Netstat Active Connections 
+2020-03-15 12:08:12,748 [DEBUG]: checking vulnerability with plugin name Nessus Scan Information 
+2020-03-15 12:08:12,748 [DEBUG]: checking vulnerability with plugin name Local Checks Not Enabled (info) 
+2020-03-15 12:08:12,748 [DEBUG]: checking vulnerability with plugin name IP Protocols Scan 
+2020-03-15 12:08:12,748 [DEBUG]: checking vulnerability with plugin name ICMP Timestamp Request Remote Date Disclosure 
+2020-03-15 12:08:12,749 [DEBUG]: checking vulnerability with plugin name HyperText Transfer Protocol (HTTP) Information 
+2020-03-15 12:08:12,749 [DEBUG]: checking vulnerability with plugin name HTTP Server Type and Version 
+2020-03-15 12:08:12,749 [DEBUG]: checking vulnerability with plugin name HTTP Methods Allowed (per directory) 
+2020-03-15 12:08:12,749 [DEBUG]: checking vulnerability with plugin name HSTS Missing From HTTPS Server 
+2020-03-15 12:08:12,749 [DEBUG]: checking vulnerability with plugin name Host Fully Qualified Domain Name (FQDN) Resolution 
+2020-03-15 12:08:12,750 [DEBUG]: checking vulnerability with plugin name Errors in nessusd.dump 
+2020-03-15 12:08:12,750 [DEBUG]: checking vulnerability with plugin name Device Type 
+2020-03-15 12:08:12,750 [DEBUG]: checking vulnerability with plugin name Debugging Log Report 
+2020-03-15 12:08:12,750 [DEBUG]: checking vulnerability with plugin name Common Platform Enumeration (CPE) 
+2020-03-15 12:08:12,750 [DEBUG]: checking vulnerability with plugin name Backported Security Patch Detection (SSH) 
+2020-03-15 12:08:12,751 [DEBUG]: checking vulnerability with plugin name Authentication Success 
+2020-03-15 12:08:12,751 [DEBUG]: checking vulnerability with plugin name Authenticated Check : OS Name and Installed Package Enumeration 
+2020-03-15 12:08:12,751 [DEBUG]: checking vulnerability with plugin name Apache HTTP Server Version 
+2020-03-15 12:08:12,751 [DEBUG]: checking vulnerability with plugin name Additional DNS Hostnames 
+2020-03-15 12:08:12,751 [DEBUG]: checking vulnerability with plugin name Service Detection 
+2020-03-15 12:08:12,752 [DEBUG]: checking vulnerability with plugin name Nessus SNMP Scanner 
+2020-03-15 12:08:12,752 [DEBUG]: checking vulnerability with plugin name SSL Self-Signed Certificate 
+2020-03-15 12:08:12,752 [DEBUG]: checking vulnerability with plugin name SSL Certificate Cannot Be Trusted 
+2020-03-15 12:08:12,752 [DEBUG]: checking vulnerability with plugin name OPIE w/ OpenSSH Account Enumeration 
+2020-03-15 12:08:12,752 [DEBUG]: checking vulnerability with plugin name OpenSSH S/KEY Authentication Account Enumeration 
+2020-03-15 12:08:12,753 [DEBUG]: checking vulnerability with plugin name OpenSSH >= 2.3.0 AllowTcpForwarding Port Bouncing 
+2020-03-15 12:08:12,753 [DEBUG]: checking vulnerability with plugin name SNMP Agent Default Community Name (public) 
+2020-03-15 12:08:12,753 [DEBUG]: Check vulnerabilites for scan id 538 
+2020-03-15 12:08:12,753 [DEBUG]: checking vulnerability with plugin name Web Server robots.txt Information Disclosure 
+2020-03-15 12:08:12,753 [DEBUG]: checking vulnerability with plugin name Traceroute Information 
+2020-03-15 12:08:12,754 [DEBUG]: checking vulnerability with plugin name Time of Last System Startup 
+2020-03-15 12:08:12,754 [DEBUG]: checking vulnerability with plugin name TCP/IP Timestamps Supported 
+2020-03-15 12:08:12,754 [DEBUG]: checking vulnerability with plugin name SSL Root Certification Authority Certificate Information 
+2020-03-15 12:08:12,754 [DEBUG]: checking vulnerability with plugin name SSL Perfect Forward Secrecy Cipher Suites Supported 
+2020-03-15 12:08:12,755 [DEBUG]: checking vulnerability with plugin name SSL Cipher Suites Supported 
+2020-03-15 12:08:12,755 [DEBUG]: checking vulnerability with plugin name SSL Cipher Block Chaining Cipher Suites Supported 
+2020-03-15 12:08:12,755 [DEBUG]: checking vulnerability with plugin name SSL Certificate Information 
+2020-03-15 12:08:12,755 [DEBUG]: checking vulnerability with plugin name SSL Certificate 'commonName' Mismatch 
+2020-03-15 12:08:12,755 [DEBUG]: checking vulnerability with plugin name SSL / TLS Versions Supported 
+2020-03-15 12:08:12,756 [DEBUG]: checking vulnerability with plugin name SSH Server Type and Version Information 
+2020-03-15 12:08:12,756 [DEBUG]: checking vulnerability with plugin name SSH Protocol Versions Supported 
+2020-03-15 12:08:12,756 [DEBUG]: checking vulnerability with plugin name SSH Algorithms and Languages Supported 
+2020-03-15 12:08:12,756 [DEBUG]: checking vulnerability with plugin name SNMP Supported Protocols Detection 
+2020-03-15 12:08:12,756 [DEBUG]: checking vulnerability with plugin name SNMP Request Network Interfaces Enumeration 
+2020-03-15 12:08:12,757 [DEBUG]: checking vulnerability with plugin name SNMP Query System Information Disclosure 
+2020-03-15 12:08:12,757 [DEBUG]: checking vulnerability with plugin name SNMP Query Running Process List Disclosure 
+2020-03-15 12:08:12,757 [DEBUG]: checking vulnerability with plugin name SNMP Query Routing Information Disclosure 
+2020-03-15 12:08:12,757 [DEBUG]: checking vulnerability with plugin name SNMP Protocol Version Detection 
+2020-03-15 12:08:12,757 [DEBUG]: checking vulnerability with plugin name OS Identification and Installed Software Enumeration over SSH v2 (Using New SSH Library) 
+2020-03-15 12:08:12,758 [DEBUG]: checking vulnerability with plugin name OS Identification 
+2020-03-15 12:08:12,758 [DEBUG]: checking vulnerability with plugin name Network Time Protocol (NTP) Server Detection 
+2020-03-15 12:08:12,758 [DEBUG]: checking vulnerability with plugin name Netstat Active Connections 
+2020-03-15 12:08:12,758 [DEBUG]: checking vulnerability with plugin name Nessus Scan Information 
+2020-03-15 12:08:12,758 [DEBUG]: checking vulnerability with plugin name Local Checks Not Enabled (info) 
+2020-03-15 12:08:12,759 [DEBUG]: checking vulnerability with plugin name ICMP Timestamp Request Remote Date Disclosure 
+2020-03-15 12:08:12,759 [DEBUG]: checking vulnerability with plugin name HyperText Transfer Protocol (HTTP) Information 
+2020-03-15 12:08:12,759 [DEBUG]: checking vulnerability with plugin name HTTP Server Type and Version 
+2020-03-15 12:08:12,759 [DEBUG]: checking vulnerability with plugin name HTTP Methods Allowed (per directory) 
+2020-03-15 12:08:12,759 [DEBUG]: checking vulnerability with plugin name HSTS Missing From HTTPS Server 
+2020-03-15 12:08:12,760 [DEBUG]: checking vulnerability with plugin name Host Fully Qualified Domain Name (FQDN) Resolution 
+2020-03-15 12:08:12,760 [DEBUG]: checking vulnerability with plugin name Ethernet MAC Addresses 
+2020-03-15 12:08:12,760 [DEBUG]: checking vulnerability with plugin name Ethernet Card Manufacturer Detection 
+2020-03-15 12:08:12,760 [DEBUG]: checking vulnerability with plugin name Device Type 
+2020-03-15 12:08:12,760 [DEBUG]: checking vulnerability with plugin name Common Platform Enumeration (CPE) 
+2020-03-15 12:08:12,761 [DEBUG]: checking vulnerability with plugin name Backported Security Patch Detection (SSH) 
+2020-03-15 12:08:12,761 [DEBUG]: checking vulnerability with plugin name Authentication Success 
+2020-03-15 12:08:12,761 [DEBUG]: checking vulnerability with plugin name Authenticated Check : OS Name and Installed Package Enumeration 
+2020-03-15 12:08:12,761 [DEBUG]: checking vulnerability with plugin name Apache HTTP Server Version 
+2020-03-15 12:08:12,762 [DEBUG]: checking vulnerability with plugin name Additional DNS Hostnames 
+2020-03-15 12:08:12,762 [DEBUG]: checking vulnerability with plugin name Service Detection 
+2020-03-15 12:08:12,762 [DEBUG]: checking vulnerability with plugin name Nessus SNMP Scanner 
+2020-03-15 12:08:12,762 [DEBUG]: checking vulnerability with plugin name SSL Self-Signed Certificate 
+2020-03-15 12:08:12,762 [DEBUG]: checking vulnerability with plugin name SSL Certificate Cannot Be Trusted 
+2020-03-15 12:08:12,763 [DEBUG]: checking vulnerability with plugin name SNMP 'GETBULK' Reflection DDoS 
+2020-03-15 12:08:12,763 [DEBUG]: checking vulnerability with plugin name SNMP Agent Default Community Name (public) 
+2020-03-15 12:08:12,764 [DEBUG]: Check vulnerabilites for scan id 414 
+2020-03-15 12:08:12,764 [DEBUG]: checking vulnerability with plugin name Traceroute Information 
+2020-03-15 12:08:12,764 [DEBUG]: checking vulnerability with plugin name TCP/IP Timestamps Supported 
+2020-03-15 12:08:12,764 [DEBUG]: checking vulnerability with plugin name SNMP Supported Protocols Detection 
+2020-03-15 12:08:12,765 [DEBUG]: checking vulnerability with plugin name SNMP Protocol Version Detection 
+2020-03-15 12:08:12,765 [DEBUG]: checking vulnerability with plugin name Network Time Protocol (NTP) Server Detection 
+2020-03-15 12:08:12,765 [DEBUG]: checking vulnerability with plugin name Nessus Scan Information 
+2020-03-15 12:08:12,766 [DEBUG]: checking vulnerability with plugin name ICMP Timestamp Request Remote Date Disclosure 
+2020-03-15 12:08:12,766 [DEBUG]: checking vulnerability with plugin name Host Fully Qualified Domain Name (FQDN) Resolution 
+2020-03-15 12:08:12,766 [DEBUG]: checking vulnerability with plugin name Nessus SNMP Scanner 
+2020-03-15 12:08:12,767 [DEBUG]: Trying to fetch Family name for product 
+2020-03-15 12:08:12,767 [DEBUG]: Product Family found for MLNX_OS = MLNX_OS 
+2020-03-15 12:08:12,767 [DEBUG]: Calculating total score 
+2020-03-15 12:08:12,768 [INFO]: Total Grade for MLNX_OS forNessus is 95.0 
+2020-03-15 12:08:12,768 [INFO]: Done with Nessus 
+2020-03-15 12:08:12,771 [INFO]: building checkers model from 4 files 
+2020-03-15 12:08:12,771 [DEBUG]: Trying to open /qa/qa/arielwe/security_dashbaord/coverity/checker_p1.txt 

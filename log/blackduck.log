@@ -1,0 +1,1368 @@
+2020-03-15 12:08:01,465 [DEBUG]: Creating SSH Object 
+2020-03-15 12:08:01,466 [INFO]: Start initial SSH configuration for 10.209.27.114 
+2020-03-15 12:08:01,562 [INFO]: initial SSH object is done 
+2020-03-15 12:08:01,563 [INFO]: Authinticate Blackduck with username and password 
+2020-03-15 12:08:08,053 [INFO]: Authentication for Blackduck Server is completed successfully 
+2020-03-15 12:08:08,054 [DEBUG]: csrf-token is : 5484af0a-7825-436b-b0c3-47f320837a2c 
+2020-03-15 12:08:08,054 [INFO]: Start Collecting data from Blackduck Server 
+2020-03-15 12:08:08,054 [DEBUG]: start get all Projects function 
+2020-03-15 12:08:08,054 [INFO]: Send request to retrive all BD Project 
+2020-03-15 12:08:08,253 [INFO]: Getting all projects ended with status code 200!  
+2020-03-15 12:08:08,253 [DEBUG]: Change bytes array into JSON 
+2020-03-15 12:08:08,255 [DEBUG]: Start to create Results object 
+2020-03-15 12:08:08,255 [DEBUG]: Searching vulnerabilites for project :ConnectX FW 
+2020-03-15 12:08:08,256 [DEBUG]: version of project is 472210fb-4173-4741-938d-3338f9652b4f 
+2020-03-15 12:08:08,256 [DEBUG]: Start get version 
+2020-03-15 12:08:08,691 [DEBUG]: get all version for projects ended succussfully 
+2020-03-15 12:08:08,692 [DEBUG]: Start Compare versions 
+2020-03-15 12:08:08,692 [DEBUG]: Project has 2versions, checking who is most up to date 
+2020-03-15 12:08:08,692 [DEBUG]: biggest version was found in index 1 at time 2020-02-26T12:34:00.214Z 
+2020-03-15 12:08:08,692 [DEBUG]: adding link of version for link array https://blackduck.mellanox.com/api/projects/472210fb-4173-4741-938d-3338f9652b4f/versions/44baa1a5-799e-4828-b1db-97477f737080 
+2020-03-15 12:08:08,692 [DEBUG]: Found blackduck project on projectRiskProfilePageView Object for project : ConnectX FW 
+2020-03-15 12:08:08,692 [INFO]: vulerbilities data was added successfully to project ConnectX FW 
+2020-03-15 12:08:08,692 [DEBUG]: Searching vulnerabilites for project :MLNX_OS 
+2020-03-15 12:08:08,692 [DEBUG]: fetching data from csv file for MLNX_OS project 
+2020-03-15 12:08:08,692 [DEBUG]: Start fetching data from mellanox os csv file 
+2020-03-15 12:08:08,755 [DEBUG]: Found CSV file for MLNX_OS : /auto/sysgwork/G/blackduck_automation/branch_scan/all_cves_3_9_0300_x86.csv 
+2020-03-15 12:08:08,756 [DEBUG]: Copy CSV file to current directory 
+2020-03-15 12:08:08,786 [DEBUG]: Copy file ended successfully 
+2020-03-15 12:08:08,786 [INFO]: Reading csv file for mellanox OS 
+2020-03-15 12:08:08,814 [INFO]: Creating dictionary from csv file has eneded completely 
+2020-03-15 12:08:08,814 [INFO]: Searching for specific Redemtion Status 
+2020-03-15 12:08:08,814 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.8 
+2020-03-15 12:08:08,814 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,814 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,814 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,814 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,815 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,815 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,815 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.9 
+2020-03-15 12:08:08,815 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.1 
+2020-03-15 12:08:08,815 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,815 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,815 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.4 
+2020-03-15 12:08:08,815 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.1 
+2020-03-15 12:08:08,815 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,815 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,815 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,815 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,816 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,816 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,816 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.8 
+2020-03-15 12:08:08,816 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,816 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,816 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,816 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,816 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,816 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,816 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,816 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,816 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,817 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,817 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,817 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,817 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,817 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,817 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,817 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,817 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,817 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,817 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,817 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,817 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,817 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,818 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,818 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.6 
+2020-03-15 12:08:08,818 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,818 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,818 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,818 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,818 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,818 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,818 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,818 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.2 
+2020-03-15 12:08:08,818 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.7 
+2020-03-15 12:08:08,818 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,818 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.7 
+2020-03-15 12:08:08,819 [DEBUG]: found bug with status VULNERABLE with base score 7.2 
+2020-03-15 12:08:08,819 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.7 
+2020-03-15 12:08:08,819 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,819 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,819 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.3 
+2020-03-15 12:08:08,819 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,819 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.8 
+2020-03-15 12:08:08,819 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 0.8 
+2020-03-15 12:08:08,819 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.4 
+2020-03-15 12:08:08,819 [DEBUG]: found bug with status VULNERABLE with base score 7.2 
+2020-03-15 12:08:08,819 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.5 
+2020-03-15 12:08:08,819 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.4 
+2020-03-15 12:08:08,820 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.4 
+2020-03-15 12:08:08,820 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,820 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,820 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,820 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,820 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,820 [DEBUG]: found bug with status VULNERABLE with base score 7.1 
+2020-03-15 12:08:08,820 [DEBUG]: found bug with status VULNERABLE with base score 7.1 
+2020-03-15 12:08:08,820 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.7 
+2020-03-15 12:08:08,820 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,820 [DEBUG]: found bug with status VULNERABLE with base score 7.1 
+2020-03-15 12:08:08,820 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.7 
+2020-03-15 12:08:08,820 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.9 
+2020-03-15 12:08:08,821 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,821 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.8 
+2020-03-15 12:08:08,821 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,821 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.9 
+2020-03-15 12:08:08,821 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,821 [DEBUG]: found bug with status VULNERABLE with base score 7.1 
+2020-03-15 12:08:08,821 [DEBUG]: found bug with status VULNERABLE with base score 7.1 
+2020-03-15 12:08:08,821 [DEBUG]: found bug with status VULNERABLE with base score 7.1 
+2020-03-15 12:08:08,821 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.4 
+2020-03-15 12:08:08,821 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,821 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,821 [DEBUG]: found bug with status VULNERABLE with base score 7.8 
+2020-03-15 12:08:08,821 [DEBUG]: found bug with status VULNERABLE with base score 7.2 
+2020-03-15 12:08:08,822 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.0 
+2020-03-15 12:08:08,822 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,822 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,822 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,822 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,822 [DEBUG]: found bug with status VULNERABLE with base score 7.2 
+2020-03-15 12:08:08,822 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.4 
+2020-03-15 12:08:08,822 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,822 [DEBUG]: found bug with status VULNERABLE with base score 7.2 
+2020-03-15 12:08:08,822 [DEBUG]: found bug with status VULNERABLE with base score 7.2 
+2020-03-15 12:08:08,822 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,822 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.6 
+2020-03-15 12:08:08,822 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,823 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,823 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,823 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,823 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.2 
+2020-03-15 12:08:08,823 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,823 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,823 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,823 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,823 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,823 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.5 
+2020-03-15 12:08:08,823 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.9 
+2020-03-15 12:08:08,823 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.4 
+2020-03-15 12:08:08,823 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.7 
+2020-03-15 12:08:08,824 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.0 
+2020-03-15 12:08:08,824 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,824 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.3 
+2020-03-15 12:08:08,824 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.3 
+2020-03-15 12:08:08,824 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,824 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.0 
+2020-03-15 12:08:08,824 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.1 
+2020-03-15 12:08:08,824 [DEBUG]: found bug with status VULNERABLE with base score 7.2 
+2020-03-15 12:08:08,824 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.4 
+2020-03-15 12:08:08,824 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.0 
+2020-03-15 12:08:08,824 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.4 
+2020-03-15 12:08:08,824 [DEBUG]: found bug with status VULNERABLE with base score 7.8 
+2020-03-15 12:08:08,824 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.0 
+2020-03-15 12:08:08,825 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,825 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,825 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,825 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,825 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.8 
+2020-03-15 12:08:08,825 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.3 
+2020-03-15 12:08:08,825 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.6 
+2020-03-15 12:08:08,825 [DEBUG]: found bug with status VULNERABLE with base score 7.2 
+2020-03-15 12:08:08,825 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,825 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,825 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,825 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,826 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,826 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,826 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,826 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,826 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,826 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,826 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,826 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.5 
+2020-03-15 12:08:08,826 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.7 
+2020-03-15 12:08:08,826 [DEBUG]: found bug with status VULNERABLE with base score 7.8 
+2020-03-15 12:08:08,826 [DEBUG]: found bug with status VULNERABLE with base score 7.8 
+2020-03-15 12:08:08,826 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,826 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,827 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,827 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.7 
+2020-03-15 12:08:08,827 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.9 
+2020-03-15 12:08:08,827 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,827 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,827 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,827 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,827 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,827 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.9 
+2020-03-15 12:08:08,827 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,827 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,827 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,827 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,827 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,828 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,828 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.6 
+2020-03-15 12:08:08,828 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,828 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,828 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,828 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,828 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,828 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,828 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,828 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,828 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,828 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,828 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,829 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,829 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,829 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,829 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,829 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,829 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,829 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,829 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,829 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,829 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,829 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,830 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,830 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,830 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,830 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,830 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,830 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,830 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,830 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,830 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,830 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,830 [DEBUG]: found bug with status VULNERABLE with base score 2.1 
+2020-03-15 12:08:08,830 [DEBUG]: found bug with status VULNERABLE with base score 4.0 
+2020-03-15 12:08:08,830 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,831 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,831 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,831 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,831 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.6 
+2020-03-15 12:08:08,831 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,831 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,831 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,831 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,831 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,831 [DEBUG]: found bug with status VULNERABLE with base score 7.8 
+2020-03-15 12:08:08,831 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,831 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,831 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,832 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,832 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,832 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,832 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,832 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,832 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,832 [DEBUG]: found bug with status VULNERABLE with base score 7.8 
+2020-03-15 12:08:08,832 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,832 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,832 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,832 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,832 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,832 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,833 [DEBUG]: found bug with status VULNERABLE with base score 8.5 
+2020-03-15 12:08:08,833 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,833 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,833 [DEBUG]: found bug with status VULNERABLE with base score 7.2 
+2020-03-15 12:08:08,833 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,833 [DEBUG]: found bug with status VULNERABLE with base score 7.2 
+2020-03-15 12:08:08,833 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,833 [DEBUG]: found bug with status VULNERABLE with base score 7.8 
+2020-03-15 12:08:08,833 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,833 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,833 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,833 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,834 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,834 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,834 [DEBUG]: found bug with status VULNERABLE with base score 4.9 
+2020-03-15 12:08:08,834 [DEBUG]: found bug with status VULNERABLE with base score 7.8 
+2020-03-15 12:08:08,834 [DEBUG]: found bug with status VULNERABLE with base score 7.8 
+2020-03-15 12:08:08,834 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 7.8 
+2020-03-15 12:08:08,834 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,834 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,834 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,834 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,834 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,834 [DEBUG]: found bug with status VULNERABLE with base score 7.8 
+2020-03-15 12:08:08,835 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,835 [DEBUG]: found bug with status VULNERABLE with base score 4.3 
+2020-03-15 12:08:08,835 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,835 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.1 
+2020-03-15 12:08:08,835 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,835 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,835 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,835 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,835 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,835 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,835 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,835 [DEBUG]: found bug with status VULNERABLE with base score 7.8 
+2020-03-15 12:08:08,835 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,836 [DEBUG]: found bug with status VULNERABLE with base score 7.1 
+2020-03-15 12:08:08,836 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,836 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,836 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,836 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,836 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,836 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 7.8 
+2020-03-15 12:08:08,836 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,836 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,836 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.9 
+2020-03-15 12:08:08,836 [DEBUG]: found bug with status VULNERABLE with base score 7.8 
+2020-03-15 12:08:08,836 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,836 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,837 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,837 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,837 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,837 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,837 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,837 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,837 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,837 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,837 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,837 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.9 
+2020-03-15 12:08:08,837 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,837 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,837 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,838 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,838 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,838 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,838 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 7.2 
+2020-03-15 12:08:08,838 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,838 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,838 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,838 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,838 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,838 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,838 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.3 
+2020-03-15 12:08:08,838 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,838 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,839 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 7.1 
+2020-03-15 12:08:08,839 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,839 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,839 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,839 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,839 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,839 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,839 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,839 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,839 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.9 
+2020-03-15 12:08:08,839 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 7.8 
+2020-03-15 12:08:08,839 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,839 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,840 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,840 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,840 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,840 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,840 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,840 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,840 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,840 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.9 
+2020-03-15 12:08:08,840 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,840 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,840 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.5 
+2020-03-15 12:08:08,840 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.4 
+2020-03-15 12:08:08,840 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,841 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,841 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,841 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,841 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,841 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,841 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,841 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,841 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,841 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,841 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,841 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,841 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,842 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,842 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.8 
+2020-03-15 12:08:08,842 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,842 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,842 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.0 
+2020-03-15 12:08:08,842 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.5 
+2020-03-15 12:08:08,842 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.0 
+2020-03-15 12:08:08,842 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,842 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,842 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,842 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,842 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.4 
+2020-03-15 12:08:08,842 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,843 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.7 
+2020-03-15 12:08:08,843 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,843 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,843 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,843 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,843 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,843 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,843 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,843 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,843 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,843 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.2 
+2020-03-15 12:08:08,843 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,843 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,844 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,844 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,844 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.9 
+2020-03-15 12:08:08,844 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,844 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,844 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,844 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,844 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.4 
+2020-03-15 12:08:08,844 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,844 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.9 
+2020-03-15 12:08:08,844 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,844 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,844 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,845 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.8 
+2020-03-15 12:08:08,845 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.8 
+2020-03-15 12:08:08,845 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,845 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.8 
+2020-03-15 12:08:08,845 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,845 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.8 
+2020-03-15 12:08:08,845 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,845 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,845 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,845 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,845 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.7 
+2020-03-15 12:08:08,845 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.7 
+2020-03-15 12:08:08,846 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.4 
+2020-03-15 12:08:08,846 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.7 
+2020-03-15 12:08:08,846 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.7 
+2020-03-15 12:08:08,846 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.7 
+2020-03-15 12:08:08,846 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.7 
+2020-03-15 12:08:08,846 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.7 
+2020-03-15 12:08:08,846 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.7 
+2020-03-15 12:08:08,846 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.7 
+2020-03-15 12:08:08,846 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.7 
+2020-03-15 12:08:08,846 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.7 
+2020-03-15 12:08:08,846 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.7 
+2020-03-15 12:08:08,846 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.7 
+2020-03-15 12:08:08,846 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.7 
+2020-03-15 12:08:08,847 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,847 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,847 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,847 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,847 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,847 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,847 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.7 
+2020-03-15 12:08:08,847 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,847 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,847 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,847 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,847 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,847 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,848 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,848 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.8 
+2020-03-15 12:08:08,848 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,848 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,848 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,848 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,848 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,848 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,848 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,848 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,848 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,848 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,848 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,849 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.9 
+2020-03-15 12:08:08,849 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,849 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,849 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,849 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,849 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,849 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.6 
+2020-03-15 12:08:08,849 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,849 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,849 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,849 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,849 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,850 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,850 [DEBUG]: found bug with status VULNERABLE with base score 7.8 
+2020-03-15 12:08:08,850 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,850 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,850 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,850 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,850 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,850 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,850 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,850 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,850 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,850 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,851 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,851 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,851 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,851 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,851 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,851 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,851 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,851 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,851 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,851 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,851 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,851 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 7.5 
+2020-03-15 12:08:08,851 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,852 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,852 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.9 
+2020-03-15 12:08:08,852 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,852 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,852 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,852 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,852 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.9 
+2020-03-15 12:08:08,852 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,852 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,852 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,852 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,852 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,853 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,853 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,853 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,853 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,853 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.8 
+2020-03-15 12:08:08,853 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,853 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,853 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,853 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,853 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,853 [DEBUG]: found bug with status VULNERABLE with base score 7.8 
+2020-03-15 12:08:08,853 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,853 [DEBUG]: found bug with status VULNERABLE with base score 7.8 
+2020-03-15 12:08:08,854 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.0 
+2020-03-15 12:08:08,854 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,854 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,854 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,854 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,854 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,854 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,854 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.9 
+2020-03-15 12:08:08,854 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,854 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.8 
+2020-03-15 12:08:08,854 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,854 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,854 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,855 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,855 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.2 
+2020-03-15 12:08:08,855 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,855 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,855 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,855 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,855 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,855 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,855 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,855 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,855 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,855 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,855 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,856 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,856 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.6 
+2020-03-15 12:08:08,856 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,856 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,856 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,856 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,856 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,856 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,856 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,856 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,856 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,856 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,857 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,857 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,857 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,857 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,857 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,857 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,857 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,857 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,857 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,857 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,857 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,857 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.2 
+2020-03-15 12:08:08,857 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.2 
+2020-03-15 12:08:08,858 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,858 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,858 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,858 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.1 
+2020-03-15 12:08:08,858 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,858 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.1 
+2020-03-15 12:08:08,858 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,858 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,858 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,858 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,858 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,858 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,858 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,859 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,859 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,859 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,859 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,859 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,859 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,859 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,859 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,859 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.5 
+2020-03-15 12:08:08,859 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.9 
+2020-03-15 12:08:08,859 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,859 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.9 
+2020-03-15 12:08:08,859 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,860 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,860 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.9 
+2020-03-15 12:08:08,860 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,860 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,860 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,860 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.8 
+2020-03-15 12:08:08,860 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,860 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,860 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,860 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,860 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.2 
+2020-03-15 12:08:08,860 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.2 
+2020-03-15 12:08:08,861 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,861 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,861 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,861 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.0 
+2020-03-15 12:08:08,861 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,861 [DEBUG]: found bug with status VULNERABLE with base score 7.8 
+2020-03-15 12:08:08,861 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,861 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,861 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 7.5 
+2020-03-15 12:08:08,861 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,861 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,861 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.9 
+2020-03-15 12:08:08,861 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,862 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.6 
+2020-03-15 12:08:08,862 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,862 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,862 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.2 
+2020-03-15 12:08:08,862 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.2 
+2020-03-15 12:08:08,862 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.2 
+2020-03-15 12:08:08,862 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 7.5 
+2020-03-15 12:08:08,862 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,862 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,862 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,862 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 7.5 
+2020-03-15 12:08:08,862 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 7.8 
+2020-03-15 12:08:08,862 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,863 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,863 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,863 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,863 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,863 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,863 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,863 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,863 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,863 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,863 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,863 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,863 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,864 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,864 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,864 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,864 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,864 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,864 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,864 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,864 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,864 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,864 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,864 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,864 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,864 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,865 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,865 [DEBUG]: found bug with status VULNERABLE with base score 7.6 
+2020-03-15 12:08:08,865 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,865 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,865 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,865 [DEBUG]: found bug with status VULNERABLE with base score 7.8 
+2020-03-15 12:08:08,865 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,865 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,865 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,865 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,865 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.8 
+2020-03-15 12:08:08,865 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.8 
+2020-03-15 12:08:08,866 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,866 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,866 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,866 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,866 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.8 
+2020-03-15 12:08:08,866 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.8 
+2020-03-15 12:08:08,866 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,866 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,866 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,866 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,866 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,866 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,866 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.8 
+2020-03-15 12:08:08,867 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,867 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.8 
+2020-03-15 12:08:08,867 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.8 
+2020-03-15 12:08:08,867 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,867 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,867 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,867 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,867 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,867 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,867 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,867 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,867 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,867 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,868 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,868 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,868 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,868 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,868 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,868 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,868 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,868 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,868 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,868 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,868 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,868 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,868 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,869 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,869 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,869 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,869 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,869 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,869 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,869 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,869 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,869 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,869 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,869 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,869 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.8 
+2020-03-15 12:08:08,869 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,870 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,870 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,870 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,870 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,870 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,870 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.0 
+2020-03-15 12:08:08,870 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.9 
+2020-03-15 12:08:08,870 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.6 
+2020-03-15 12:08:08,870 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.8 
+2020-03-15 12:08:08,870 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.3 
+2020-03-15 12:08:08,870 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,870 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.2 
+2020-03-15 12:08:08,870 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,871 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.1 
+2020-03-15 12:08:08,871 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,871 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.0 
+2020-03-15 12:08:08,871 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,871 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,871 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.9 
+2020-03-15 12:08:08,871 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,871 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,871 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,871 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,871 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,871 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,871 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.1 
+2020-03-15 12:08:08,872 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,872 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,872 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 7.5 
+2020-03-15 12:08:08,872 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,872 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,872 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,872 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,872 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,872 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,872 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 7.1 
+2020-03-15 12:08:08,872 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,872 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 7.2 
+2020-03-15 12:08:08,873 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,873 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,873 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,873 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.8 
+2020-03-15 12:08:08,873 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,873 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,873 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,873 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,873 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,873 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,873 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.2 
+2020-03-15 12:08:08,873 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,873 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,874 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,874 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,874 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,874 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,874 [DEBUG]: found bug with status VULNERABLE with base score 7.1 
+2020-03-15 12:08:08,874 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,874 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,874 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,874 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.6 
+2020-03-15 12:08:08,874 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,874 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,874 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,874 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,875 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,875 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,875 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,875 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.6 
+2020-03-15 12:08:08,875 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,875 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.1 
+2020-03-15 12:08:08,875 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.1 
+2020-03-15 12:08:08,875 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,875 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,875 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,875 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.4 
+2020-03-15 12:08:08,875 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,875 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,876 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,876 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,876 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,876 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.9 
+2020-03-15 12:08:08,876 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.9 
+2020-03-15 12:08:08,876 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,876 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,876 [DEBUG]: found bug with status VULNERABLE with base score 7.8 
+2020-03-15 12:08:08,876 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,876 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,876 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,876 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,876 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,877 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,877 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,877 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,877 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,877 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,877 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,877 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.3 
+2020-03-15 12:08:08,877 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,877 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,877 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,877 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,877 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,878 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,878 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,878 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,878 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,878 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,878 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,878 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,878 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,878 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,878 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,878 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.6 
+2020-03-15 12:08:08,878 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,878 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.9 
+2020-03-15 12:08:08,879 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,879 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.4 
+2020-03-15 12:08:08,879 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,879 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.9 
+2020-03-15 12:08:08,879 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.9 
+2020-03-15 12:08:08,879 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.8 
+2020-03-15 12:08:08,879 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.6 
+2020-03-15 12:08:08,879 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,879 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,879 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,879 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,879 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,880 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.6 
+2020-03-15 12:08:08,880 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.6 
+2020-03-15 12:08:08,880 [DEBUG]: found bug with status VULNERABLE with base score 5.0 
+2020-03-15 12:08:08,880 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,880 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,880 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,880 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.5 
+2020-03-15 12:08:08,880 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.7 
+2020-03-15 12:08:08,880 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.7 
+2020-03-15 12:08:08,880 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.5 
+2020-03-15 12:08:08,880 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,880 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,880 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,881 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,881 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.9 
+2020-03-15 12:08:08,881 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.5 
+2020-03-15 12:08:08,881 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.5 
+2020-03-15 12:08:08,881 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.2 
+2020-03-15 12:08:08,881 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,881 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.5 
+2020-03-15 12:08:08,881 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,881 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,881 [DEBUG]: found bug with status VULNERABLE with base score 7.5 
+2020-03-15 12:08:08,881 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,881 [DEBUG]: found bug with status VULNERABLE with base score 5.0 
+2020-03-15 12:08:08,882 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,882 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,882 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 1.7 
+2020-03-15 12:08:08,882 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.7 
+2020-03-15 12:08:08,882 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,882 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.1 
+2020-03-15 12:08:08,882 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,882 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,882 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.6 
+2020-03-15 12:08:08,882 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.0 
+2020-03-15 12:08:08,882 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.1 
+2020-03-15 12:08:08,883 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.1 
+2020-03-15 12:08:08,883 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,883 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,883 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,883 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,883 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,883 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,883 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,883 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.0 
+2020-03-15 12:08:08,883 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.0 
+2020-03-15 12:08:08,883 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.4 
+2020-03-15 12:08:08,883 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.6 
+2020-03-15 12:08:08,884 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,884 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,884 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.8 
+2020-03-15 12:08:08,884 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.4 
+2020-03-15 12:08:08,884 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.5 
+2020-03-15 12:08:08,884 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.5 
+2020-03-15 12:08:08,884 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,884 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,884 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,884 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,884 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,884 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,884 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,885 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,885 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,885 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,885 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,885 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,885 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,885 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,885 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,885 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,885 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,885 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,885 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,886 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,886 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,886 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,886 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,886 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,886 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,886 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,886 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,886 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.4 
+2020-03-15 12:08:08,886 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,886 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.5 
+2020-03-15 12:08:08,886 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.5 
+2020-03-15 12:08:08,886 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.5 
+2020-03-15 12:08:08,887 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.5 
+2020-03-15 12:08:08,887 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.5 
+2020-03-15 12:08:08,887 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,887 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,887 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,887 [DEBUG]: found bug with status VULNERABLE with base score 7.2 
+2020-03-15 12:08:08,887 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 3.5 
+2020-03-15 12:08:08,887 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,887 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 5.0 
+2020-03-15 12:08:08,887 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.6 
+2020-03-15 12:08:08,887 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 6.8 
+2020-03-15 12:08:08,887 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,887 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,888 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,888 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.4 
+2020-03-15 12:08:08,888 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 2.1 
+2020-03-15 12:08:08,888 [DEBUG]: found bug with status REMEDIATION_REQUIRED with base score 4.3 
+2020-03-15 12:08:08,889 [DEBUG]: Searching vulnerabilites for project :Windows 
+2020-03-15 12:08:08,889 [DEBUG]: version of project is 7e5f3284-01ad-4167-9dc7-01497f2421f0 
+2020-03-15 12:08:08,889 [DEBUG]: Start get version 
+2020-03-15 12:08:09,356 [DEBUG]: get all version for projects ended succussfully 
+2020-03-15 12:08:09,357 [DEBUG]: Start Compare versions 
+2020-03-15 12:08:09,357 [DEBUG]: Project has 10versions, checking who is most up to date 
+2020-03-15 12:08:09,357 [DEBUG]: biggest version was found in index 5 at time 2020-02-20T11:53:41.563Z 
+2020-03-15 12:08:09,357 [DEBUG]: adding link of version for link array https://blackduck.mellanox.com/api/projects/7e5f3284-01ad-4167-9dc7-01497f2421f0/versions/a53fec1a-4fd6-4df9-917d-be51fb3d0b15 
+2020-03-15 12:08:09,357 [DEBUG]: Found blackduck project on projectRiskProfilePageView Object for project : Windows 
+2020-03-15 12:08:09,357 [INFO]: vulerbilities data was added successfully to project Windows 
+2020-03-15 12:08:09,357 [DEBUG]: Searching vulnerabilites for project :OPENSM 
+2020-03-15 12:08:09,358 [DEBUG]: version of project is c6a301ec-e8db-4dc5-9362-a45d3435365b 
+2020-03-15 12:08:09,358 [DEBUG]: Start get version 
+2020-03-15 12:08:09,721 [DEBUG]: get all version for projects ended succussfully 
+2020-03-15 12:08:09,721 [DEBUG]: Start Compare versions 
+2020-03-15 12:08:09,721 [DEBUG]: Project has 2versions, checking who is most up to date 
+2020-03-15 12:08:09,721 [DEBUG]: biggest version was found in index 1 at time 2019-10-02T09:10:46.588Z 
+2020-03-15 12:08:09,721 [DEBUG]: adding link of version for link array https://blackduck.mellanox.com/api/projects/c6a301ec-e8db-4dc5-9362-a45d3435365b/versions/97c769e6-4fb3-46a4-843a-4cd3d5bd1da0 
+2020-03-15 12:08:09,721 [DEBUG]: Found blackduck project on projectRiskProfilePageView Object for project : OPENSM 
+2020-03-15 12:08:09,722 [INFO]: vulerbilities data was added successfully to project OPENSM 
+2020-03-15 12:08:09,722 [DEBUG]: Searching vulnerabilites for project :NEO 
+2020-03-15 12:08:09,722 [DEBUG]: version of project is 998089ce-4253-4077-beda-47ebccef7e75 
+2020-03-15 12:08:09,722 [DEBUG]: Start get version 
+2020-03-15 12:08:10,112 [DEBUG]: get all version for projects ended succussfully 
+2020-03-15 12:08:10,113 [DEBUG]: Start Compare versions 
+2020-03-15 12:08:10,113 [DEBUG]: Project has 10versions, checking who is most up to date 
+2020-03-15 12:08:10,114 [DEBUG]: biggest version was found in index 9 at time 2020-01-28T12:23:07.224Z 
+2020-03-15 12:08:10,114 [DEBUG]: adding link of version for link array https://blackduck.mellanox.com/api/projects/998089ce-4253-4077-beda-47ebccef7e75/versions/9607c061-8443-48ab-a25f-39419d797437 
+2020-03-15 12:08:10,114 [DEBUG]: Found blackduck project on projectRiskProfilePageView Object for project : NEO 
+2020-03-15 12:08:10,114 [INFO]: vulerbilities data was added successfully to project NEO 
+2020-03-15 12:08:10,114 [DEBUG]: Searching vulnerabilites for project :MLNX_OFED 
+2020-03-15 12:08:10,115 [DEBUG]: version of project is 259c60bf-8f3e-4a78-ba0a-296b6de8f402 
+2020-03-15 12:08:10,115 [DEBUG]: Start get version 
+2020-03-15 12:08:10,485 [DEBUG]: get all version for projects ended succussfully 
+2020-03-15 12:08:10,486 [DEBUG]: Start Compare versions 
+2020-03-15 12:08:10,486 [DEBUG]: Project has 2versions, checking who is most up to date 
+2020-03-15 12:08:10,486 [DEBUG]: biggest version was found in index 0 at time 2019-10-16T13:29:37.941Z 
+2020-03-15 12:08:10,486 [DEBUG]: adding link of version for link array https://blackduck.mellanox.com/api/projects/259c60bf-8f3e-4a78-ba0a-296b6de8f402/versions/a7c53ab5-ab23-46c7-8c97-c80e46eb11f2 
+2020-03-15 12:08:10,486 [DEBUG]: Found blackduck project on projectRiskProfilePageView Object for project : MLNX_OFED 
+2020-03-15 12:08:10,487 [INFO]: vulerbilities data was added successfully to project MLNX_OFED 
+2020-03-15 12:08:10,487 [DEBUG]: Searching vulnerabilites for project :UFM 
+2020-03-15 12:08:10,487 [DEBUG]: version of project is e0b14c4a-a767-44c1-b4df-33e9e5f515a9 
+2020-03-15 12:08:10,487 [DEBUG]: Start get version 
+2020-03-15 12:08:10,870 [DEBUG]: get all version for projects ended succussfully 
+2020-03-15 12:08:10,871 [DEBUG]: Start Compare versions 
+2020-03-15 12:08:10,871 [DEBUG]: Project has 10versions, checking who is most up to date 
+2020-03-15 12:08:10,871 [DEBUG]: biggest version was found in index 8 at time 2020-03-13T04:02:20.881Z 
+2020-03-15 12:08:10,871 [DEBUG]: adding link of version for link array https://blackduck.mellanox.com/api/projects/e0b14c4a-a767-44c1-b4df-33e9e5f515a9/versions/3cfc7d88-56e3-4152-a6ad-8259b7ecfd8a 
+2020-03-15 12:08:10,871 [DEBUG]: Found blackduck project on projectRiskProfilePageView Object for project : UFM 
+2020-03-15 12:08:10,871 [INFO]: vulerbilities data was added successfully to project UFM 
+2020-03-15 12:08:10,871 [DEBUG]: finish create Result Object 
+2020-03-15 12:08:10,871 [INFO]: Writing BD results to CSV 
+2020-03-15 12:08:10,871 [DEBUG]: Trying to fetch Family name for product 
+2020-03-15 12:08:10,871 [DEBUG]: Product Family found for ConnectX FW = HOST FW 
+2020-03-15 12:08:10,871 [DEBUG]: Calculating total score 
+2020-03-15 12:08:10,872 [INFO]: Total Grade for ConnectX FW forBD is 0 
+2020-03-15 12:08:10,873 [DEBUG]: Trying to fetch Family name for product 
+2020-03-15 12:08:10,873 [DEBUG]: Product Family found for MLNX_OS = MLNX_OS 
+2020-03-15 12:08:10,873 [DEBUG]: Calculating total score 
+2020-03-15 12:08:10,873 [INFO]: Total Grade for MLNX_OS forBD is 88.8 
+2020-03-15 12:08:10,873 [DEBUG]: Trying to fetch Family name for product 
+2020-03-15 12:08:10,873 [DEBUG]: Product Family found for Windows = WINDOWS 
+2020-03-15 12:08:10,873 [DEBUG]: Calculating total score 
+2020-03-15 12:08:10,873 [INFO]: Total Grade for Windows forBD is 70.2 
+2020-03-15 12:08:10,874 [DEBUG]: Trying to fetch Family name for product 
+2020-03-15 12:08:10,874 [DEBUG]: Product Family found for OPENSM = MGMT TOOLS 
+2020-03-15 12:08:10,874 [DEBUG]: Calculating total score 
+2020-03-15 12:08:10,874 [INFO]: Total Grade for OPENSM forBD is 0 
+2020-03-15 12:08:10,874 [DEBUG]: Trying to fetch Family name for product 
+2020-03-15 12:08:10,874 [DEBUG]: Product Family found for NEO = MGMT TOOLS 
+2020-03-15 12:08:10,874 [DEBUG]: Calculating total score 
+2020-03-15 12:08:10,874 [INFO]: Total Grade for NEO forBD is 50.5 
+2020-03-15 12:08:10,875 [DEBUG]: Trying to fetch Family name for product 
+2020-03-15 12:08:10,875 [DEBUG]: Product Family found for MLNX_OFED = LINUX DRIVERS 
+2020-03-15 12:08:10,875 [DEBUG]: Calculating total score 
+2020-03-15 12:08:10,875 [INFO]: Total Grade for MLNX_OFED forBD is 0 
+2020-03-15 12:08:10,875 [DEBUG]: Trying to fetch Family name for product 
+2020-03-15 12:08:10,875 [DEBUG]: Product Family found for UFM = MGMT TOOLS 
+2020-03-15 12:08:10,875 [DEBUG]: Calculating total score 
+2020-03-15 12:08:10,875 [INFO]: Total Grade for UFM forBD is 0 
+2020-03-15 12:08:10,876 [DEBUG]: finish writing results from BD to CSV 
+2020-03-15 12:08:10,876 [DEBUG]: dumping dictionary into file /qa/qa/arielwe/security_dashbaord/json/overallRiskAggregate.json 
+2020-03-15 12:08:10,878 [DEBUG]: Writing to JSON file successded 
+2020-03-15 12:08:10,878 [DEBUG]: dumping dictionary into file /qa/qa/arielwe/security_dashbaord/json/projectRiskProfilePageView.json 
+2020-03-15 12:08:10,903 [DEBUG]: Writing to JSON file successded 
+2020-03-15 12:08:10,903 [INFO]: Done with BlackDone 
+2020-03-15 12:08:10,905 [INFO]: authentication for Nessus server has started 
+2020-03-15 12:08:11,961 [DEBUG]: token used for nessus is : 0a1b9b14348da73c49129fb895186ab14d57579cec6d4dc1 
+2020-03-15 12:08:11,961 [INFO]: Authentication for Nessus Server is completed successfully 
+2020-03-15 12:08:11,962 [DEBUG]:  Nessus-token is : 0a1b9b14348da73c49129fb895186ab14d57579cec6d4dc1 
+2020-03-15 12:08:12,016 [DEBUG]: requests to /scans finish succussfully 
+2020-03-15 12:08:12,016 [INFO]: setting the folder ID of my scans  
+2020-03-15 12:08:12,016 [DEBUG]: folder id found for my Scans : 3 
+2020-03-15 12:08:12,017 [INFO]: removing all scans on trash folder 
+2020-03-15 12:08:12,017 [INFO]: find vulnerabilites for each scan id 
+2020-03-15 12:08:12,017 [DEBUG]: getting information about scan id 356 
+2020-03-15 12:08:12,106 [DEBUG]: getting information about scan id 358 
+2020-03-15 12:08:12,197 [DEBUG]: getting information about scan id 359 
+2020-03-15 12:08:12,286 [DEBUG]: getting information about scan id 361 
+2020-03-15 12:08:12,370 [DEBUG]: getting information about scan id 553 
+2020-03-15 12:08:12,445 [DEBUG]: getting information about scan id 567 
+2020-03-15 12:08:12,534 [DEBUG]: getting information about scan id 538 
+2020-03-15 12:08:12,622 [DEBUG]: getting information about scan id 414 
+2020-03-15 12:08:12,704 [DEBUG]: Check vulnerabilites for scan id 356 
+2020-03-15 12:08:12,704 [DEBUG]: checking vulnerability with plugin name Web mirroring 
+2020-03-15 12:08:12,704 [DEBUG]: checking vulnerability with plugin name Web Application Sitemap 
+2020-03-15 12:08:12,704 [DEBUG]: checking vulnerability with plugin name Traceroute Information 
+2020-03-15 12:08:12,705 [DEBUG]: checking vulnerability with plugin name Time of Last System Startup 
+2020-03-15 12:08:12,705 [DEBUG]: checking vulnerability with plugin name TCP/IP Timestamps Supported 
+2020-03-15 12:08:12,705 [DEBUG]: checking vulnerability with plugin name SSL Root Certification Authority Certificate Information 
+2020-03-15 12:08:12,705 [DEBUG]: checking vulnerability with plugin name SSL Perfect Forward Secrecy Cipher Suites Supported 
+2020-03-15 12:08:12,706 [DEBUG]: checking vulnerability with plugin name SSL Cipher Suites Supported 
+2020-03-15 12:08:12,706 [DEBUG]: checking vulnerability with plugin name SSL Cipher Block Chaining Cipher Suites Supported 
+2020-03-15 12:08:12,706 [DEBUG]: checking vulnerability with plugin name SSL Certificate Information 
+2020-03-15 12:08:12,706 [DEBUG]: checking vulnerability with plugin name SSL Certificate Expiry - Future Validity 
+2020-03-15 12:08:12,706 [DEBUG]: checking vulnerability with plugin name SSL Certificate 'commonName' Mismatch 
+2020-03-15 12:08:12,707 [DEBUG]: checking vulnerability with plugin name SSL / TLS Versions Supported 
+2020-03-15 12:08:12,707 [DEBUG]: checking vulnerability with plugin name SSH Server Type and Version Information 
+2020-03-15 12:08:12,707 [DEBUG]: checking vulnerability with plugin name SSH Protocol Versions Supported 
+2020-03-15 12:08:12,707 [DEBUG]: checking vulnerability with plugin name SSH Combined Host Command Logging (Plugin Debugging) 
+2020-03-15 12:08:12,707 [DEBUG]: checking vulnerability with plugin name SSH Algorithms and Languages Supported 
+2020-03-15 12:08:12,708 [DEBUG]: checking vulnerability with plugin name SNMP Supported Protocols Detection 
+2020-03-15 12:08:12,708 [DEBUG]: checking vulnerability with plugin name SNMP Request Network Interfaces Enumeration 
+2020-03-15 12:08:12,708 [DEBUG]: checking vulnerability with plugin name SNMP Query System Information Disclosure 
+2020-03-15 12:08:12,708 [DEBUG]: checking vulnerability with plugin name SNMP Query Running Process List Disclosure 
+2020-03-15 12:08:12,708 [DEBUG]: checking vulnerability with plugin name SNMP Query Routing Information Disclosure 
+2020-03-15 12:08:12,709 [DEBUG]: checking vulnerability with plugin name SNMP Protocol Version Detection 
+2020-03-15 12:08:12,709 [DEBUG]: checking vulnerability with plugin name PCI DSS compliance : options settings 
+2020-03-15 12:08:12,709 [DEBUG]: checking vulnerability with plugin name Patch Report 
+2020-03-15 12:08:12,709 [DEBUG]: checking vulnerability with plugin name OS Identification and Installed Software Enumeration over SSH v2 (Using New SSH Library) 
+2020-03-15 12:08:12,710 [DEBUG]: checking vulnerability with plugin name OS Identification 
+2020-03-15 12:08:12,710 [DEBUG]: checking vulnerability with plugin name Network Time Protocol (NTP) Server Detection 
+2020-03-15 12:08:12,710 [DEBUG]: checking vulnerability with plugin name Netstat Active Connections 
+2020-03-15 12:08:12,710 [DEBUG]: checking vulnerability with plugin name Nessus Scan Information 
+2020-03-15 12:08:12,710 [DEBUG]: checking vulnerability with plugin name Missing or Permissive Content-Security-Policy frame-ancestors HTTP Response Header 
+2020-03-15 12:08:12,711 [DEBUG]: checking vulnerability with plugin name Local Checks Not Enabled (info) 
+2020-03-15 12:08:12,711 [DEBUG]: checking vulnerability with plugin name IP Protocols Scan 
+2020-03-15 12:08:12,711 [DEBUG]: checking vulnerability with plugin name ICMP Timestamp Request Remote Date Disclosure 
+2020-03-15 12:08:12,711 [DEBUG]: checking vulnerability with plugin name HyperText Transfer Protocol (HTTP) Redirect Information 
+2020-03-15 12:08:12,711 [DEBUG]: checking vulnerability with plugin name HyperText Transfer Protocol (HTTP) Information 
+2020-03-15 12:08:12,712 [DEBUG]: checking vulnerability with plugin name HTTP Server Type and Version 
+2020-03-15 12:08:12,712 [DEBUG]: checking vulnerability with plugin name HTTP Methods Allowed (per directory) 
+2020-03-15 12:08:12,712 [DEBUG]: checking vulnerability with plugin name HSTS Missing From HTTPS Server 
+2020-03-15 12:08:12,712 [DEBUG]: checking vulnerability with plugin name Host Fully Qualified Domain Name (FQDN) Resolution 
+2020-03-15 12:08:12,712 [DEBUG]: checking vulnerability with plugin name Ethernet MAC Addresses 
+2020-03-15 12:08:12,713 [DEBUG]: checking vulnerability with plugin name Ethernet Card Manufacturer Detection 
+2020-03-15 12:08:12,713 [DEBUG]: checking vulnerability with plugin name Device Type 
+2020-03-15 12:08:12,713 [DEBUG]: checking vulnerability with plugin name Debugging Log Report 
+2020-03-15 12:08:12,713 [DEBUG]: checking vulnerability with plugin name Common Platform Enumeration (CPE) 
+2020-03-15 12:08:12,713 [DEBUG]: checking vulnerability with plugin name CGI Generic Tests Load Estimation (all tests) 
+2020-03-15 12:08:12,714 [DEBUG]: checking vulnerability with plugin name CGI Generic Injectable Parameter 
+2020-03-15 12:08:12,714 [DEBUG]: checking vulnerability with plugin name Authentication Success 
+2020-03-15 12:08:12,714 [DEBUG]: checking vulnerability with plugin name Authenticated Check : OS Name and Installed Package Enumeration 
+2020-03-15 12:08:12,714 [DEBUG]: checking vulnerability with plugin name Apache HTTP Server Version 
+2020-03-15 12:08:12,715 [DEBUG]: checking vulnerability with plugin name Additional DNS Hostnames 
+2020-03-15 12:08:12,715 [DEBUG]: checking vulnerability with plugin name Service Detection 
+2020-03-15 12:08:12,715 [DEBUG]: checking vulnerability with plugin name Nessus SNMP Scanner 
+2020-03-15 12:08:12,715 [DEBUG]: checking vulnerability with plugin name SSL Self-Signed Certificate 
+2020-03-15 12:08:12,715 [DEBUG]: checking vulnerability with plugin name SSL Certificate Cannot Be Trusted 
+2020-03-15 12:08:12,716 [DEBUG]: checking vulnerability with plugin name SNMP 'GETBULK' Reflection DDoS 
+2020-03-15 12:08:12,716 [DEBUG]: checking vulnerability with plugin name OPIE w/ OpenSSH Account Enumeration 
+2020-03-15 12:08:12,716 [DEBUG]: checking vulnerability with plugin name OpenSSH S/KEY Authentication Account Enumeration 
+2020-03-15 12:08:12,716 [DEBUG]: checking vulnerability with plugin name OpenSSH >= 2.3.0 AllowTcpForwarding Port Bouncing 
+2020-03-15 12:08:12,716 [DEBUG]: checking vulnerability with plugin name SNMP Agent Default Community Name (public) 
+2020-03-15 12:08:12,717 [DEBUG]: Check vulnerabilites for scan id 358 
+2020-03-15 12:08:12,717 [DEBUG]: checking vulnerability with plugin name Web mirroring 
+2020-03-15 12:08:12,717 [DEBUG]: checking vulnerability with plugin name Web Application Sitemap 
+2020-03-15 12:08:12,717 [DEBUG]: checking vulnerability with plugin name Traceroute Information 
+2020-03-15 12:08:12,717 [DEBUG]: checking vulnerability with plugin name TCP/IP Timestamps Supported 
+2020-03-15 12:08:12,718 [DEBUG]: checking vulnerability with plugin name SSL Root Certification Authority Certificate Information 
+2020-03-15 12:08:12,718 [DEBUG]: checking vulnerability with plugin name SSL Perfect Forward Secrecy Cipher Suites Supported 
+2020-03-15 12:08:12,718 [DEBUG]: checking vulnerability with plugin name SSL Cipher Suites Supported 
+2020-03-15 12:08:12,718 [DEBUG]: checking vulnerability with plugin name SSL Cipher Block Chaining Cipher Suites Supported 
+2020-03-15 12:08:12,718 [DEBUG]: checking vulnerability with plugin name SSL Certificate Information 
+2020-03-15 12:08:12,719 [DEBUG]: checking vulnerability with plugin name SSL Certificate Expiry - Future Validity 
+2020-03-15 12:08:12,719 [DEBUG]: checking vulnerability with plugin name SSL Certificate 'commonName' Mismatch 
+2020-03-15 12:08:12,719 [DEBUG]: checking vulnerability with plugin name SSL / TLS Versions Supported 
+2020-03-15 12:08:12,719 [DEBUG]: checking vulnerability with plugin name SSH Server Type and Version Information 
+2020-03-15 12:08:12,720 [DEBUG]: checking vulnerability with plugin name SSH Protocol Versions Supported 
+2020-03-15 12:08:12,720 [DEBUG]: checking vulnerability with plugin name SSH Algorithms and Languages Supported 
+2020-03-15 12:08:12,720 [DEBUG]: checking vulnerability with plugin name SNMP Supported Protocols Detection 
+2020-03-15 12:08:12,720 [DEBUG]: checking vulnerability with plugin name SNMP Request Network Interfaces Enumeration 
+2020-03-15 12:08:12,720 [DEBUG]: checking vulnerability with plugin name SNMP Query System Information Disclosure 
+2020-03-15 12:08:12,721 [DEBUG]: checking vulnerability with plugin name SNMP Query Running Process List Disclosure 
+2020-03-15 12:08:12,721 [DEBUG]: checking vulnerability with plugin name SNMP Query Routing Information Disclosure 
+2020-03-15 12:08:12,721 [DEBUG]: checking vulnerability with plugin name SNMP Protocol Version Detection 
+2020-03-15 12:08:12,721 [DEBUG]: checking vulnerability with plugin name PCI DSS compliance : options settings 
+2020-03-15 12:08:12,721 [DEBUG]: checking vulnerability with plugin name PCI DSS Compliance : Handling False Positives 
+2020-03-15 12:08:12,722 [DEBUG]: checking vulnerability with plugin name Patch Report 
+2020-03-15 12:08:12,722 [DEBUG]: checking vulnerability with plugin name OS Identification 
+2020-03-15 12:08:12,722 [DEBUG]: checking vulnerability with plugin name Network Time Protocol (NTP) Server Detection 
+2020-03-15 12:08:12,722 [DEBUG]: checking vulnerability with plugin name Nessus Scan Information 
+2020-03-15 12:08:12,722 [DEBUG]: checking vulnerability with plugin name Missing or Permissive Content-Security-Policy frame-ancestors HTTP Response Header 
+2020-03-15 12:08:12,723 [DEBUG]: checking vulnerability with plugin name IP Protocols Scan 
+2020-03-15 12:08:12,723 [DEBUG]: checking vulnerability with plugin name ICMP Timestamp Request Remote Date Disclosure 
+2020-03-15 12:08:12,723 [DEBUG]: checking vulnerability with plugin name HyperText Transfer Protocol (HTTP) Redirect Information 
+2020-03-15 12:08:12,723 [DEBUG]: checking vulnerability with plugin name HyperText Transfer Protocol (HTTP) Information 
+2020-03-15 12:08:12,724 [DEBUG]: checking vulnerability with plugin name HTTP Server Type and Version 
+2020-03-15 12:08:12,724 [DEBUG]: checking vulnerability with plugin name HTTP Methods Allowed (per directory) 
+2020-03-15 12:08:12,724 [DEBUG]: checking vulnerability with plugin name HSTS Missing From HTTPS Server 
+2020-03-15 12:08:12,724 [DEBUG]: checking vulnerability with plugin name Host Fully Qualified Domain Name (FQDN) Resolution 
+2020-03-15 12:08:12,724 [DEBUG]: checking vulnerability with plugin name External URLs 
+2020-03-15 12:08:12,725 [DEBUG]: checking vulnerability with plugin name Ethernet MAC Addresses 
+2020-03-15 12:08:12,725 [DEBUG]: checking vulnerability with plugin name Ethernet Card Manufacturer Detection 
+2020-03-15 12:08:12,725 [DEBUG]: checking vulnerability with plugin name Errors in nessusd.dump 
+2020-03-15 12:08:12,725 [DEBUG]: checking vulnerability with plugin name Common Platform Enumeration (CPE) 
+2020-03-15 12:08:12,725 [DEBUG]: checking vulnerability with plugin name CGI Generic Tests Load Estimation (all tests) 
+2020-03-15 12:08:12,726 [DEBUG]: checking vulnerability with plugin name CGI Generic Injectable Parameter 
+2020-03-15 12:08:12,726 [DEBUG]: checking vulnerability with plugin name Apache HTTP Server Version 
+2020-03-15 12:08:12,726 [DEBUG]: checking vulnerability with plugin name Additional DNS Hostnames 
+2020-03-15 12:08:12,726 [DEBUG]: checking vulnerability with plugin name PCI DSS Compliance - Information Leakage 
+2020-03-15 12:08:12,727 [DEBUG]: checking vulnerability with plugin name Service Detection 
+2020-03-15 12:08:12,727 [DEBUG]: checking vulnerability with plugin name Nessus SNMP Scanner 
+2020-03-15 12:08:12,727 [DEBUG]: checking vulnerability with plugin name SSL Self-Signed Certificate 
+2020-03-15 12:08:12,727 [DEBUG]: checking vulnerability with plugin name SSL Certificate Cannot Be Trusted 
+2020-03-15 12:08:12,727 [DEBUG]: checking vulnerability with plugin name SNMP 'GETBULK' Reflection DDoS 
+2020-03-15 12:08:12,728 [DEBUG]: checking vulnerability with plugin name PCI DSS Compliance : Insecure Communication Has Been Detected 
+2020-03-15 12:08:12,728 [DEBUG]: checking vulnerability with plugin name OPIE w/ OpenSSH Account Enumeration 
+2020-03-15 12:08:12,728 [DEBUG]: checking vulnerability with plugin name OpenSSH S/KEY Authentication Account Enumeration 
+2020-03-15 12:08:12,728 [DEBUG]: checking vulnerability with plugin name OpenSSH >= 2.3.0 AllowTcpForwarding Port Bouncing 
+2020-03-15 12:08:12,728 [DEBUG]: checking vulnerability with plugin name OpenSSH 7.7 < 8.1 
+2020-03-15 12:08:12,729 [DEBUG]: checking vulnerability with plugin name SNMP Agent Default Community Name (public) 
+2020-03-15 12:08:12,729 [DEBUG]: Check vulnerabilites for scan id 359 
+2020-03-15 12:08:12,729 [DEBUG]: checking vulnerability with plugin name Traceroute Information 
+2020-03-15 12:08:12,729 [DEBUG]: checking vulnerability with plugin name Time of Last System Startup 
+2020-03-15 12:08:12,729 [DEBUG]: checking vulnerability with plugin name TCP/IP Timestamps Supported 
+2020-03-15 12:08:12,730 [DEBUG]: checking vulnerability with plugin name SSL Root Certification Authority Certificate Information 
+2020-03-15 12:08:12,730 [DEBUG]: checking vulnerability with plugin name SSL Perfect Forward Secrecy Cipher Suites Supported 
+2020-03-15 12:08:12,730 [DEBUG]: checking vulnerability with plugin name SSL Cipher Suites Supported 
+2020-03-15 12:08:12,730 [DEBUG]: checking vulnerability with plugin name SSL Cipher Block Chaining Cipher Suites Supported 
+2020-03-15 12:08:12,730 [DEBUG]: checking vulnerability with plugin name SSL Certificate Information 
+2020-03-15 12:08:12,731 [DEBUG]: checking vulnerability with plugin name SSL Certificate Expiry - Future Validity 
+2020-03-15 12:08:12,731 [DEBUG]: checking vulnerability with plugin name SSL Certificate 'commonName' Mismatch 
+2020-03-15 12:08:12,731 [DEBUG]: checking vulnerability with plugin name SSL / TLS Versions Supported 
+2020-03-15 12:08:12,731 [DEBUG]: checking vulnerability with plugin name SSH Server Type and Version Information 
+2020-03-15 12:08:12,732 [DEBUG]: checking vulnerability with plugin name SSH Protocol Versions Supported 
+2020-03-15 12:08:12,732 [DEBUG]: checking vulnerability with plugin name SSH Algorithms and Languages Supported 
+2020-03-15 12:08:12,732 [DEBUG]: checking vulnerability with plugin name SNMP Supported Protocols Detection 
+2020-03-15 12:08:12,732 [DEBUG]: checking vulnerability with plugin name SNMP Request Network Interfaces Enumeration 
+2020-03-15 12:08:12,732 [DEBUG]: checking vulnerability with plugin name SNMP Query System Information Disclosure 
+2020-03-15 12:08:12,733 [DEBUG]: checking vulnerability with plugin name SNMP Query Running Process List Disclosure 
+2020-03-15 12:08:12,733 [DEBUG]: checking vulnerability with plugin name SNMP Query Routing Information Disclosure 
+2020-03-15 12:08:12,733 [DEBUG]: checking vulnerability with plugin name SNMP Protocol Version Detection 
+2020-03-15 12:08:12,733 [DEBUG]: checking vulnerability with plugin name OS Identification and Installed Software Enumeration over SSH v2 (Using New SSH Library) 
+2020-03-15 12:08:12,733 [DEBUG]: checking vulnerability with plugin name OS Identification 
+2020-03-15 12:08:12,734 [DEBUG]: checking vulnerability with plugin name Network Time Protocol (NTP) Server Detection 
+2020-03-15 12:08:12,734 [DEBUG]: checking vulnerability with plugin name Netstat Active Connections 
+2020-03-15 12:08:12,734 [DEBUG]: checking vulnerability with plugin name Nessus Scan Information 
+2020-03-15 12:08:12,734 [DEBUG]: checking vulnerability with plugin name Local Checks Not Enabled (info) 
+2020-03-15 12:08:12,734 [DEBUG]: checking vulnerability with plugin name ICMP Timestamp Request Remote Date Disclosure 
+2020-03-15 12:08:12,735 [DEBUG]: checking vulnerability with plugin name HyperText Transfer Protocol (HTTP) Information 
+2020-03-15 12:08:12,735 [DEBUG]: checking vulnerability with plugin name HTTP Server Type and Version 
+2020-03-15 12:08:12,735 [DEBUG]: checking vulnerability with plugin name HTTP Methods Allowed (per directory) 
+2020-03-15 12:08:12,735 [DEBUG]: checking vulnerability with plugin name HSTS Missing From HTTPS Server 
+2020-03-15 12:08:12,735 [DEBUG]: checking vulnerability with plugin name Host Fully Qualified Domain Name (FQDN) Resolution 
+2020-03-15 12:08:12,736 [DEBUG]: checking vulnerability with plugin name Ethernet MAC Addresses 
+2020-03-15 12:08:12,736 [DEBUG]: checking vulnerability with plugin name Ethernet Card Manufacturer Detection 
+2020-03-15 12:08:12,736 [DEBUG]: checking vulnerability with plugin name Device Type 
+2020-03-15 12:08:12,736 [DEBUG]: checking vulnerability with plugin name Common Platform Enumeration (CPE) 
+2020-03-15 12:08:12,737 [DEBUG]: checking vulnerability with plugin name Authentication Success 
+2020-03-15 12:08:12,737 [DEBUG]: checking vulnerability with plugin name Authenticated Check : OS Name and Installed Package Enumeration 
+2020-03-15 12:08:12,737 [DEBUG]: checking vulnerability with plugin name Apache HTTP Server Version 
+2020-03-15 12:08:12,737 [DEBUG]: checking vulnerability with plugin name Additional DNS Hostnames 
+2020-03-15 12:08:12,737 [DEBUG]: checking vulnerability with plugin name Service Detection 
+2020-03-15 12:08:12,738 [DEBUG]: checking vulnerability with plugin name Nessus SNMP Scanner 
+2020-03-15 12:08:12,738 [DEBUG]: checking vulnerability with plugin name SSL Self-Signed Certificate 
+2020-03-15 12:08:12,738 [DEBUG]: checking vulnerability with plugin name SSL Certificate Cannot Be Trusted 
+2020-03-15 12:08:12,738 [DEBUG]: checking vulnerability with plugin name SNMP 'GETBULK' Reflection DDoS 
+2020-03-15 12:08:12,738 [DEBUG]: checking vulnerability with plugin name SNMP Agent Default Community Name (public) 
+2020-03-15 12:08:12,739 [DEBUG]: Check vulnerabilites for scan id 361 
+2020-03-15 12:08:12,739 [DEBUG]: checking vulnerability with plugin name Web mirroring 
+2020-03-15 12:08:12,739 [DEBUG]: checking vulnerability with plugin name Web Application Sitemap 
+2020-03-15 12:08:12,739 [DEBUG]: checking vulnerability with plugin name Nessus Scan Information 
+2020-03-15 12:08:12,739 [DEBUG]: checking vulnerability with plugin name Missing or Permissive Content-Security-Policy frame-ancestors HTTP Response Header 
+2020-03-15 12:08:12,740 [DEBUG]: checking vulnerability with plugin name HyperText Transfer Protocol (HTTP) Redirect Information 
+2020-03-15 12:08:12,740 [DEBUG]: checking vulnerability with plugin name HyperText Transfer Protocol (HTTP) Information 
+2020-03-15 12:08:12,740 [DEBUG]: checking vulnerability with plugin name HTTP Server Type and Version 
+2020-03-15 12:08:12,740 [DEBUG]: checking vulnerability with plugin name HTTP Methods Allowed (per directory) 
+2020-03-15 12:08:12,740 [DEBUG]: checking vulnerability with plugin name HSTS Missing From HTTPS Server 
+2020-03-15 12:08:12,741 [DEBUG]: checking vulnerability with plugin name CGI Generic Tests Load Estimation (all tests) 
+2020-03-15 12:08:12,741 [DEBUG]: checking vulnerability with plugin name CGI Generic Injectable Parameter 
+2020-03-15 12:08:12,741 [DEBUG]: checking vulnerability with plugin name Apache HTTP Server Version 
+2020-03-15 12:08:12,741 [DEBUG]: checking vulnerability with plugin name Nessus SNMP Scanner 
+2020-03-15 12:08:12,741 [DEBUG]: Check vulnerabilites for scan id 553 
+2020-03-15 12:08:12,742 [DEBUG]: checking vulnerability with plugin name SSH Combined Host Command Logging (Plugin Debugging) 
+2020-03-15 12:08:12,742 [DEBUG]: checking vulnerability with plugin name Nessus Scan Information 
+2020-03-15 12:08:12,742 [DEBUG]: checking vulnerability with plugin name Debugging Log Report 
+2020-03-15 12:08:12,742 [DEBUG]: checking vulnerability with plugin name Nessus SNMP Scanner 
+2020-03-15 12:08:12,743 [DEBUG]: Check vulnerabilites for scan id 567 
+2020-03-15 12:08:12,743 [DEBUG]: checking vulnerability with plugin name Web Server robots.txt Information Disclosure 
+2020-03-15 12:08:12,743 [DEBUG]: checking vulnerability with plugin name Traceroute Information 
+2020-03-15 12:08:12,743 [DEBUG]: checking vulnerability with plugin name Time of Last System Startup 
+2020-03-15 12:08:12,743 [DEBUG]: checking vulnerability with plugin name TCP/IP Timestamps Supported 
+2020-03-15 12:08:12,744 [DEBUG]: checking vulnerability with plugin name SSL Root Certification Authority Certificate Information 
+2020-03-15 12:08:12,744 [DEBUG]: checking vulnerability with plugin name SSL Perfect Forward Secrecy Cipher Suites Supported 
+2020-03-15 12:08:12,744 [DEBUG]: checking vulnerability with plugin name SSL Cipher Suites Supported 
+2020-03-15 12:08:12,744 [DEBUG]: checking vulnerability with plugin name SSL Cipher Block Chaining Cipher Suites Supported 
+2020-03-15 12:08:12,745 [DEBUG]: checking vulnerability with plugin name SSL Certificate Information 
+2020-03-15 12:08:12,745 [DEBUG]: checking vulnerability with plugin name SSL Certificate 'commonName' Mismatch 
+2020-03-15 12:08:12,745 [DEBUG]: checking vulnerability with plugin name SSL / TLS Versions Supported 
+2020-03-15 12:08:12,745 [DEBUG]: checking vulnerability with plugin name SSH Server Type and Version Information 
+2020-03-15 12:08:12,745 [DEBUG]: checking vulnerability with plugin name SSH Combined Host Command Logging (Plugin Debugging) 
+2020-03-15 12:08:12,746 [DEBUG]: checking vulnerability with plugin name SSH Algorithms and Languages Supported 
+2020-03-15 12:08:12,746 [DEBUG]: checking vulnerability with plugin name SNMP Supported Protocols Detection 
+2020-03-15 12:08:12,746 [DEBUG]: checking vulnerability with plugin name SNMP Protocol Version Detection 
+2020-03-15 12:08:12,746 [DEBUG]: checking vulnerability with plugin name SFTP Supported 
+2020-03-15 12:08:12,746 [DEBUG]: checking vulnerability with plugin name PCI DSS compliance : options settings 
+2020-03-15 12:08:12,747 [DEBUG]: checking vulnerability with plugin name Patch Report 
+2020-03-15 12:08:12,747 [DEBUG]: checking vulnerability with plugin name OS Identification and Installed Software Enumeration over SSH v2 (Using New SSH Library) 
+2020-03-15 12:08:12,747 [DEBUG]: checking vulnerability with plugin name OS Identification 
+2020-03-15 12:08:12,747 [DEBUG]: checking vulnerability with plugin name Network Time Protocol (NTP) Server Detection 
+2020-03-15 12:08:12,747 [DEBUG]: checking vulnerability with plugin name Netstat Active Connections 
+2020-03-15 12:08:12,748 [DEBUG]: checking vulnerability with plugin name Nessus Scan Information 
+2020-03-15 12:08:12,748 [DEBUG]: checking vulnerability with plugin name Local Checks Not Enabled (info) 
+2020-03-15 12:08:12,748 [DEBUG]: checking vulnerability with plugin name IP Protocols Scan 
+2020-03-15 12:08:12,748 [DEBUG]: checking vulnerability with plugin name ICMP Timestamp Request Remote Date Disclosure 
+2020-03-15 12:08:12,749 [DEBUG]: checking vulnerability with plugin name HyperText Transfer Protocol (HTTP) Information 
+2020-03-15 12:08:12,749 [DEBUG]: checking vulnerability with plugin name HTTP Server Type and Version 
+2020-03-15 12:08:12,749 [DEBUG]: checking vulnerability with plugin name HTTP Methods Allowed (per directory) 
+2020-03-15 12:08:12,749 [DEBUG]: checking vulnerability with plugin name HSTS Missing From HTTPS Server 
+2020-03-15 12:08:12,749 [DEBUG]: checking vulnerability with plugin name Host Fully Qualified Domain Name (FQDN) Resolution 
+2020-03-15 12:08:12,750 [DEBUG]: checking vulnerability with plugin name Errors in nessusd.dump 
+2020-03-15 12:08:12,750 [DEBUG]: checking vulnerability with plugin name Device Type 
+2020-03-15 12:08:12,750 [DEBUG]: checking vulnerability with plugin name Debugging Log Report 
+2020-03-15 12:08:12,750 [DEBUG]: checking vulnerability with plugin name Common Platform Enumeration (CPE) 
+2020-03-15 12:08:12,750 [DEBUG]: checking vulnerability with plugin name Backported Security Patch Detection (SSH) 
+2020-03-15 12:08:12,751 [DEBUG]: checking vulnerability with plugin name Authentication Success 
+2020-03-15 12:08:12,751 [DEBUG]: checking vulnerability with plugin name Authenticated Check : OS Name and Installed Package Enumeration 
+2020-03-15 12:08:12,751 [DEBUG]: checking vulnerability with plugin name Apache HTTP Server Version 
+2020-03-15 12:08:12,751 [DEBUG]: checking vulnerability with plugin name Additional DNS Hostnames 
+2020-03-15 12:08:12,751 [DEBUG]: checking vulnerability with plugin name Service Detection 
+2020-03-15 12:08:12,752 [DEBUG]: checking vulnerability with plugin name Nessus SNMP Scanner 
+2020-03-15 12:08:12,752 [DEBUG]: checking vulnerability with plugin name SSL Self-Signed Certificate 
+2020-03-15 12:08:12,752 [DEBUG]: checking vulnerability with plugin name SSL Certificate Cannot Be Trusted 
+2020-03-15 12:08:12,752 [DEBUG]: checking vulnerability with plugin name OPIE w/ OpenSSH Account Enumeration 
+2020-03-15 12:08:12,752 [DEBUG]: checking vulnerability with plugin name OpenSSH S/KEY Authentication Account Enumeration 
+2020-03-15 12:08:12,753 [DEBUG]: checking vulnerability with plugin name OpenSSH >= 2.3.0 AllowTcpForwarding Port Bouncing 
+2020-03-15 12:08:12,753 [DEBUG]: checking vulnerability with plugin name SNMP Agent Default Community Name (public) 
+2020-03-15 12:08:12,753 [DEBUG]: Check vulnerabilites for scan id 538 
+2020-03-15 12:08:12,753 [DEBUG]: checking vulnerability with plugin name Web Server robots.txt Information Disclosure 
+2020-03-15 12:08:12,753 [DEBUG]: checking vulnerability with plugin name Traceroute Information 
+2020-03-15 12:08:12,754 [DEBUG]: checking vulnerability with plugin name Time of Last System Startup 
+2020-03-15 12:08:12,754 [DEBUG]: checking vulnerability with plugin name TCP/IP Timestamps Supported 
+2020-03-15 12:08:12,754 [DEBUG]: checking vulnerability with plugin name SSL Root Certification Authority Certificate Information 
+2020-03-15 12:08:12,754 [DEBUG]: checking vulnerability with plugin name SSL Perfect Forward Secrecy Cipher Suites Supported 
+2020-03-15 12:08:12,755 [DEBUG]: checking vulnerability with plugin name SSL Cipher Suites Supported 
+2020-03-15 12:08:12,755 [DEBUG]: checking vulnerability with plugin name SSL Cipher Block Chaining Cipher Suites Supported 
+2020-03-15 12:08:12,755 [DEBUG]: checking vulnerability with plugin name SSL Certificate Information 
+2020-03-15 12:08:12,755 [DEBUG]: checking vulnerability with plugin name SSL Certificate 'commonName' Mismatch 
+2020-03-15 12:08:12,755 [DEBUG]: checking vulnerability with plugin name SSL / TLS Versions Supported 
+2020-03-15 12:08:12,756 [DEBUG]: checking vulnerability with plugin name SSH Server Type and Version Information 
+2020-03-15 12:08:12,756 [DEBUG]: checking vulnerability with plugin name SSH Protocol Versions Supported 
+2020-03-15 12:08:12,756 [DEBUG]: checking vulnerability with plugin name SSH Algorithms and Languages Supported 
+2020-03-15 12:08:12,756 [DEBUG]: checking vulnerability with plugin name SNMP Supported Protocols Detection 
+2020-03-15 12:08:12,756 [DEBUG]: checking vulnerability with plugin name SNMP Request Network Interfaces Enumeration 
+2020-03-15 12:08:12,757 [DEBUG]: checking vulnerability with plugin name SNMP Query System Information Disclosure 
+2020-03-15 12:08:12,757 [DEBUG]: checking vulnerability with plugin name SNMP Query Running Process List Disclosure 
+2020-03-15 12:08:12,757 [DEBUG]: checking vulnerability with plugin name SNMP Query Routing Information Disclosure 
+2020-03-15 12:08:12,757 [DEBUG]: checking vulnerability with plugin name SNMP Protocol Version Detection 
+2020-03-15 12:08:12,757 [DEBUG]: checking vulnerability with plugin name OS Identification and Installed Software Enumeration over SSH v2 (Using New SSH Library) 
+2020-03-15 12:08:12,758 [DEBUG]: checking vulnerability with plugin name OS Identification 
+2020-03-15 12:08:12,758 [DEBUG]: checking vulnerability with plugin name Network Time Protocol (NTP) Server Detection 
+2020-03-15 12:08:12,758 [DEBUG]: checking vulnerability with plugin name Netstat Active Connections 
+2020-03-15 12:08:12,758 [DEBUG]: checking vulnerability with plugin name Nessus Scan Information 
+2020-03-15 12:08:12,758 [DEBUG]: checking vulnerability with plugin name Local Checks Not Enabled (info) 
+2020-03-15 12:08:12,759 [DEBUG]: checking vulnerability with plugin name ICMP Timestamp Request Remote Date Disclosure 
+2020-03-15 12:08:12,759 [DEBUG]: checking vulnerability with plugin name HyperText Transfer Protocol (HTTP) Information 
+2020-03-15 12:08:12,759 [DEBUG]: checking vulnerability with plugin name HTTP Server Type and Version 
+2020-03-15 12:08:12,759 [DEBUG]: checking vulnerability with plugin name HTTP Methods Allowed (per directory) 
+2020-03-15 12:08:12,759 [DEBUG]: checking vulnerability with plugin name HSTS Missing From HTTPS Server 
+2020-03-15 12:08:12,760 [DEBUG]: checking vulnerability with plugin name Host Fully Qualified Domain Name (FQDN) Resolution 
+2020-03-15 12:08:12,760 [DEBUG]: checking vulnerability with plugin name Ethernet MAC Addresses 
+2020-03-15 12:08:12,760 [DEBUG]: checking vulnerability with plugin name Ethernet Card Manufacturer Detection 
+2020-03-15 12:08:12,760 [DEBUG]: checking vulnerability with plugin name Device Type 
+2020-03-15 12:08:12,760 [DEBUG]: checking vulnerability with plugin name Common Platform Enumeration (CPE) 
+2020-03-15 12:08:12,761 [DEBUG]: checking vulnerability with plugin name Backported Security Patch Detection (SSH) 
+2020-03-15 12:08:12,761 [DEBUG]: checking vulnerability with plugin name Authentication Success 
+2020-03-15 12:08:12,761 [DEBUG]: checking vulnerability with plugin name Authenticated Check : OS Name and Installed Package Enumeration 
+2020-03-15 12:08:12,761 [DEBUG]: checking vulnerability with plugin name Apache HTTP Server Version 
+2020-03-15 12:08:12,762 [DEBUG]: checking vulnerability with plugin name Additional DNS Hostnames 
+2020-03-15 12:08:12,762 [DEBUG]: checking vulnerability with plugin name Service Detection 
+2020-03-15 12:08:12,762 [DEBUG]: checking vulnerability with plugin name Nessus SNMP Scanner 
+2020-03-15 12:08:12,762 [DEBUG]: checking vulnerability with plugin name SSL Self-Signed Certificate 
+2020-03-15 12:08:12,762 [DEBUG]: checking vulnerability with plugin name SSL Certificate Cannot Be Trusted 
+2020-03-15 12:08:12,763 [DEBUG]: checking vulnerability with plugin name SNMP 'GETBULK' Reflection DDoS 
+2020-03-15 12:08:12,763 [DEBUG]: checking vulnerability with plugin name SNMP Agent Default Community Name (public) 
+2020-03-15 12:08:12,764 [DEBUG]: Check vulnerabilites for scan id 414 
+2020-03-15 12:08:12,764 [DEBUG]: checking vulnerability with plugin name Traceroute Information 
+2020-03-15 12:08:12,764 [DEBUG]: checking vulnerability with plugin name TCP/IP Timestamps Supported 
+2020-03-15 12:08:12,764 [DEBUG]: checking vulnerability with plugin name SNMP Supported Protocols Detection 
+2020-03-15 12:08:12,765 [DEBUG]: checking vulnerability with plugin name SNMP Protocol Version Detection 
+2020-03-15 12:08:12,765 [DEBUG]: checking vulnerability with plugin name Network Time Protocol (NTP) Server Detection 
+2020-03-15 12:08:12,765 [DEBUG]: checking vulnerability with plugin name Nessus Scan Information 
+2020-03-15 12:08:12,766 [DEBUG]: checking vulnerability with plugin name ICMP Timestamp Request Remote Date Disclosure 
+2020-03-15 12:08:12,766 [DEBUG]: checking vulnerability with plugin name Host Fully Qualified Domain Name (FQDN) Resolution 
+2020-03-15 12:08:12,766 [DEBUG]: checking vulnerability with plugin name Nessus SNMP Scanner 
+2020-03-15 12:08:12,767 [DEBUG]: Trying to fetch Family name for product 
+2020-03-15 12:08:12,767 [DEBUG]: Product Family found for MLNX_OS = MLNX_OS 
+2020-03-15 12:08:12,767 [DEBUG]: Calculating total score 
+2020-03-15 12:08:12,768 [INFO]: Total Grade for MLNX_OS forNessus is 95.0 
+2020-03-15 12:08:12,768 [INFO]: Done with Nessus 
+2020-03-15 12:08:12,771 [INFO]: building checkers model from 4 files 
+2020-03-15 12:08:12,771 [DEBUG]: Trying to open /qa/qa/arielwe/security_dashbaord/coverity/checker_p1.txt 

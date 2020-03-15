@@ -19,7 +19,6 @@ import subprocess
 import glob
 from pathlib import Path
 
-#Ariel Weiser
 #from redminelib import Redmine
 #from packages.paramiko.client import SSHClient
 urllib3.disable_warnings()
@@ -74,8 +73,8 @@ class CONST():
     SSH_PASS = '3tango'
     BASE_REPO_PATH = '/tmp/'
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    LOG_DIR = BASE_DIR + os.sep + '..' + os.sep + 'log' + os.sep
-    JSON_DIR = BASE_DIR + os.sep + '..' + os.sep + 'json' + os.sep
+    LOG_DIR = BASE_DIR + os.sep + 'log' + os.sep
+    JSON_DIR = BASE_DIR + os.sep + 'json' + os.sep
     COV_DIR = BASE_DIR + os.sep + 'coverity' + os.sep
     COV_FILE_TEMPLATE = COV_DIR + 'checker_p<>.txt'
     FAMILY = {'HOST FW':['ConnectX FW','Mellanox FW'],
